@@ -410,4 +410,7 @@
     <string name="status_bar_custom_header_title">Time Contextual Header</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
 
+    <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
+    <string name="bluetooth_accept_all_files">Accept all file types</string>
+
 </resources>
