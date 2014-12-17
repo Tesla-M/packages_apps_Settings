@@ -1363,4 +1363,7 @@
 
     <!-- Volume keys control media stream, instead of ring/notification -->
     <string name="volume_key_control_media">Volume keys control media volume</string>
+
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
 </resources>
