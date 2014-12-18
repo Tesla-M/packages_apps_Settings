@@ -21,10 +21,9 @@
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
 
-        <com.android.settings.slim.SystemSettingSwitchPreference
+        <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="home_wake_screen"
             android:title="@string/button_wake_title"
-            android:summary="@string/home_wake_summary"
             android:defaultValue="true" />
 
         <ListPreference
@@ -46,8 +45,24 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="back_key"
+        android:title="@string/hardware_keys_back_key_title" >
+
+        <com.android.settings.tesla.SystemSettingSwitchPreference
+            android:key="back_wake_screen"
+            android:title="@string/button_wake_title"
+            android:defaultValue="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="menu_key"
         android:title="@string/hardware_keys_menu_key_title" >
+
+        <com.android.settings.tesla.SystemSettingSwitchPreference
+            android:key="menu_wake_screen"
+            android:title="@string/button_wake_title"
+            android:defaultValue="true" />
 
         <ListPreference
             android:key="hardware_keys_menu_press"
@@ -67,4 +82,15 @@
 
     </PreferenceCategory>
 
-</PreferenceScreen> 
+        <com.android.settings.tesla.SystemSettingSwitchPreference
+            android:key="volume_wake_screen"
+            android:title="@string/button_wake_title"
+            android:defaultValue="true" />
+
+        <com.android.settings.tesla.SystemSettingSwitchPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volbtn_music_controls_title"
+            android:summary="@string/volbtn_music_controls_summary"
+            android:defaultValue="true" />
+
+</PreferenceScreen>
