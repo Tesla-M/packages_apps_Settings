@@ -487,7 +487,7 @@
 
     <!-- OmniSwitch -->
     <string name="omniswitch_category">OmniSwitch</string>
-    <string name="recents_use_omniswitch_title">Use for recents</string>
+    <string name="recents_use_omniswitch_title">Use OmniSwitch for recents</string>
     <string name="recents_use_omniswitch_summary">Use OmniSwitch instead of default recents view</string>
     <string name="omniswitch_start_settings_title">Settings</string>
     <string name="omniswitch_start_settings_summary">Open OmniSwitch settings</string>
@@ -634,5 +634,9 @@
     <string name="select_custom_app_title">Select custom app</string>
     <string name="select_custom_activity_title">Select custom activity</string>
     <string name="profile_applist_title">Applications</string>
+
+    <!-- Battery saver color -->
+    <string name="battery_saver_title">Warning color</string>
+    <string name="battery_saver_style_reset_message">Reset battery saver warning color?</string>
 
 </resources>
