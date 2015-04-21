@@ -1268,4 +1268,10 @@
     <string name="ime_duration_title">IME duration</string>
     <string name="animation_duration_summary">Set duration</string>
 
+    <!-- Heads up -->
+    <string name="headsup_section_header">Heads up notifications</string>
+    <string name="heads_up_notifications">Heads up</string>
+    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
+    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
+
 </resources>
