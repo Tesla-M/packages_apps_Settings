@@ -112,6 +112,9 @@
     <string name="custom_time">Custom</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="profiles_add">Add</string>
+    <string name="profile_choose_app">Choose app</string>
+    <string name="profile_reset_title">Reset</string>
 
     <!-- Values for the notification light pulse spinners -->
     <string name="pulse_length_always_on">Always on</string>
@@ -143,8 +146,7 @@
     <string name="notification_light_default_value">Default</string>
     <string name="notification_light_missed_call_title">Missed call</string>
     <string name="notification_light_voicemail_title">Voicemail</string>
-    <string name="led_notification_title">Light settings</string>
-    <string name="led_notification_text">LED light enabled by settings</string>
+    <string name="notification_light_screen_on">Lights with screen on</string>
 
     <string name="profiles_add">Add</string>
     <string name="profile_choose_app">Choose app</string>
@@ -217,7 +219,7 @@
     <string name="changelog_tesla_title">Changelog</string>
     <string name="changelog_tesla_error">Unable to load changelog</string>
     
-    <!-- About Broken -->
+    <!-- About Tesla -->
     <string name="tesla_menu_about">About Tesla</string>
 
 </resources>
