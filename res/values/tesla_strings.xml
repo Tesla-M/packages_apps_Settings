@@ -1019,4 +1019,9 @@
     <string name="clock_font_size_22">22</string>
     <string name="clock_font_size_23">23</string>
 
+    <!-- QuickSettings main tiles -->
+    <string name="qs_main_tiles_title">Enlarge first row</string>
+    <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
+    <string name="qs_main_tiles_summary_off">Three, four or five tiles on each row</string>
+
 </resources>
