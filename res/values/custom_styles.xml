@@ -28,12 +28,18 @@
    <style name="DashboardCategory">
    <!--<item name="android:background">#HEX</item>-->
    <!--<item name="android:textColorPrimary">#HEX</item>-->
+<<<<<<< HEAD
    </style>
+=======
+>>>>>>> b427392... Layers m6.0 - Initial Commit
    <style name="DashboardTile">
    <!--<item name="android:background">#HEX</item>-->
    <!--<item name="android:textColorPrimary">#HEX</item>-->
    <!--<item name="android:colorAccent">#HEX</item>-->
    </style>
+<<<<<<< HEAD
    <!-- Unlink this dialog from framework -->
    <style name="Theme.Material.Light.Dialog.NoActionBar" parent="@android:style/Theme.Material.Light.Dialog.NoActionBar" />
+=======
+>>>>>>> b427392... Layers m6.0 - Initial Commit
 </resources>
