@@ -795,4 +795,8 @@
     <string name="link_volume_option_title">Link ring and notification volumes</string>
     <string name="notification_volume_option_title">Notification volume</string>
 
+    <!-- Navigation bar cursor -->
+    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
+    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons while typing. Overrides IME switcher.</string>
+
 </resources>
