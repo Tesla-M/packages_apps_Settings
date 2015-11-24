@@ -198,6 +198,10 @@
     <string name="advanced_reboot_hide_on_keyguard">Hide on lock screen</string>
     <string name="advanced_reboot_show_always">Show always</string>
 
+    <!-- Developer Tools -->
+    <string name="developer_tools_title">Developer tools</string>
+    <string name="developer_tools_summary">Advanced debugging tools</string>
+
     <!-- Status bar -->
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_style_title">Style</string>
