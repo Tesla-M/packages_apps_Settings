@@ -13,8 +13,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- About phone screen, Tesla version -->
-    <string name="tipsy_version_title">Tesla version</string>
-    <string name="tipsy_version_default">Unknown</string>
+    <string name="tesla_version_title">Tesla version</string>
+    <string name="tesla_version_default">Unknown</string>
     <!-- About phone screen, build date of ROM -->
     <string name="build_date">Build date</string>
     <string name="build_date_default">Unknown</string>
