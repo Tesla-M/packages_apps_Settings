@@ -24,4 +24,9 @@
         android:fragment="com.android.settings.tesla.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <Preference
+        android:key="powermenu"
+        android:fragment="com.android.settings.tesla.PowerMenu"
+        android:title="@string/powermenu_category" />
+
 </PreferenceScreen>
