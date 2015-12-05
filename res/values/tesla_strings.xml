@@ -213,4 +213,8 @@
     <string name="clock_date_format_custom">Custom java format</string>
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
 
+    <!-- Changelog -->
+    <string name="changelog_tipsy_title">Changelog</string>
+    <string name="changelog_tipsy_error">Unable to load changelog</string>
+
 </resources>
