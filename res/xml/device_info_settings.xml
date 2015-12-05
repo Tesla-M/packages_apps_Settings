@@ -21,6 +21,13 @@
                           android:enabled="false"
                           android:layout="@layout/tesla_logo_row" />
 
+        <!-- Tesla firmware version -->
+        <Preference android:key="tesla_version"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/tesla_version_title"
+                android:summary="@string/tesla_version_default"
+		android:icon="@drawable/ic_teslacoil" />
+
         <PreferenceScreen
                android:key="about_tesla"
                android:fragment="com.android.settings.tesla.TeslaAbout"
@@ -82,12 +89,6 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/baseband_version"
                 android:summary="@string/device_info_default"/>
-                
-        <!-- Tesla firmware version -->
-        <Preference android:key="tesla_version"
-                style="?android:preferenceInformationStyle"
-                android:title="@string/tesla_version_title"
-                android:summary="@string/tesla_version_default"/>
                 
         <!-- Device Kernel version -->
         <Preference android:key="kernel_version"
