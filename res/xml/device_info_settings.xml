@@ -26,7 +26,7 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/tesla_version_title"
                 android:summary="@string/tesla_version_default"
-		android:icon="@drawable/ic_teslacoil" />
+		android:icon="@drawable/ic_tesla_about" />
 
         <PreferenceScreen
                android:key="about_tesla"
