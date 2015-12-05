@@ -21,22 +21,11 @@
                           android:enabled="false"
                           android:layout="@layout/tesla_logo_row" />
 
-        <!-- Tesla OTA -->
         <PreferenceScreen
-               android:key="slimota"
-               android:title="@string/slimota_title" >
-               <intent
-                       android:action="android.intent.action.MAIN"
-                       android:targetPackage="com.fusionjack.slimota"
-                       android:targetClass="com.fusionjack.slimota.MainActivity" />
-        </PreferenceScreen>
- 
-	<!-- Changelog -->
-        <PreferenceScreen 
-         	android:key="translator"
-         	android:title="@string/changelog_tipsy_title"
-         	android:fragment="com.android.settings.tesla.Changelog" />        
-       
+               android:key="about_tesla"
+               android:fragment="com.android.settings.tesla.TeslaAbout"
+               android:title="@string/tesla_menu_about" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
