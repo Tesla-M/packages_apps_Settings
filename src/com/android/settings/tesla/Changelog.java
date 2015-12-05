@@ -51,7 +51,7 @@ public class Changelog extends Fragment {
             }
             text = data.toString();
         } catch (IOException e) {
-            text = getString(R.string.changelog_tipsy_error);
+            text = getString(R.string.changelog_tesla_error);
         } finally {
             try {
                 if (inputReader != null) {

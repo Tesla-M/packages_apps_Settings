@@ -214,7 +214,10 @@
     <string name="status_bar_clock_style_reset_message">Reset clock color?</string>
 
     <!-- Changelog -->
-    <string name="changelog_tipsy_title">Changelog</string>
-    <string name="changelog_tipsy_error">Unable to load changelog</string>
+    <string name="changelog_tesla_title">Changelog</string>
+    <string name="changelog_tesla_error">Unable to load changelog</string>
+    
+    <!-- About Broken -->
+    <string name="tesla_menu_about">About Tesla</string>
 
 </resources>
