@@ -31,7 +31,8 @@
     <string name="header_category_personalization">Personalization</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="navigation_screen_title">Navigation</string>
-    <string name="various_toys">Various Toys</string>
+    <string name="varioustoys">Various Toys</string>
+    <string name="quicksettings_category">Quick Settings</string>
 
     <!-- SystemUI Tuner Parts -->
     <string name="systemui_tuner_statusbar_title">Statusbar Items</string>
