@@ -32,6 +32,10 @@
     <string name="lockscreen_title">Lock screen</string>
     <string name="navigation_screen_title">Navigation</string>
 
+    <!-- SystemUI Tuner Parts -->
+    <string name="systemui_tuner_statusbar_title">Statusbar Items</string>
+    <string name="systemui_tuner_qs_title">Quick Settings</string>
+    <string name="systemuituner">System UI Tuner</string>
 
     <!-- TeslaOTA -->
     <string name="slimota_title">Tesla Updates</string>
