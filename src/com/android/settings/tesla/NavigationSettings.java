@@ -10,14 +10,13 @@ import android.provider.Settings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.android.internal.logging.MetricsLogger;
+
 public class NavigationSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
-    @Override
-    protected int getMetricsCategory() {
-        return MetricsLogger.TESLACOIL;
-    }
-
+		// private variables here
+		
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,4 +30,10 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
 		// preference changes here
         return false;
     }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.TESLACOIL;
+    }
+
 }
