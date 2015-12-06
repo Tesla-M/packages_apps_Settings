@@ -37,4 +37,9 @@
         android:fragment="com.android.settings.tesla.PowerMenu"
         android:title="@string/powermenu_category" />
 
+    <Preference
+        android:key="varioustoys"
+        android:fragment="com.android.settings.tesla.VariousToys"
+        android:title="@string/varioustoys" />
+
 </PreferenceScreen>
