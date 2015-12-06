@@ -28,4 +28,10 @@ public class NavigationSettings extends SettingsPreferenceFragment implements
 		// preference changes here
         return false;
     }
+
+    @Override
+    protected int getMetricsCategory() {
+        return MetricsLogger.TESLACOIL;
+    }
+
 }
