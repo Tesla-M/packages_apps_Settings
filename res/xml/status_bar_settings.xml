@@ -44,4 +44,9 @@
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
 
+         <Preference
+            android:key="statusbar_notifications"
+            android:fragment="com.android.settings.tesla.StatusbarNotifications"
+            android:title="@string/statusbar_notifications_category" />
+
 </PreferenceScreen>
