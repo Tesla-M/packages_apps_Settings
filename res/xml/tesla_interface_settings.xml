@@ -24,6 +24,14 @@
         android:fragment="com.android.settings.tesla.StatusBar"
         android:title="@string/status_bar_title" />
 
+    <PreferenceScreen
+        android:key="navigation_general_category"
+        android:title="@string/navigation_screen_title" />
+
+    <PreferenceScreen
+        android:key="lock_screen_general_category"
+        android:title="@string/lockscreen_title" />
+
     <Preference
         android:key="powermenu"
         android:fragment="com.android.settings.tesla.PowerMenu"
