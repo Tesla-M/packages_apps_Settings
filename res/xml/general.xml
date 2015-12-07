@@ -18,6 +18,11 @@
     android:title="@string/system_title" >
 
           <Preference
+            android:key="animations"
+            android:fragment="com.android.settings.tesla.Animations"
+            android:title="@string/animations_category" />
+
+          <Preference
             android:key="expanded_desktop"
             android:fragment="com.android.settings.tesla.ExpandedDesktop"
             android:title="@string/expanded_desktop_category" />
