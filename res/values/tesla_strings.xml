@@ -40,6 +40,7 @@
     <string name="statusbar_notifications_category">Notifications</string>
     <string name="listview_animations_category">List View Animations</string>
     <string name="system_animations_category">System Animations</string>
+    <string name="weather_category">Weather</string>
 
     <!-- SystemUI Tuner Parts -->
     <string name="systemui_tuner_statusbar_title">Statusbar Items</string>
@@ -428,5 +429,13 @@
     <!-- Quick Unlock (PIN) -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock the lockscreen automatically when the correct PIN/password is entered</string>
+
+    <!-- Statusbar weather -->
+    <string name="status_bar_show_weather_title">Extended statusbar weather</string>
+    <string name="status_bar_show_weather_summary">Show basic weather in the extended statusbar area</string>
+
+    <!-- LockClock Setting -->
+    <string name="weather_settings_title">LockClock settings</string>
+    <string name="weather_settings_summary">Configure location for weather widget and other settings</string>
 
 </resources>
