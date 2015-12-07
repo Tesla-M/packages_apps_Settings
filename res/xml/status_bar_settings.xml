@@ -42,6 +42,12 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.TunerActivity" />
          </PreferenceScreen>
+ 
+	 <Preference
+            android:key="traffic"
+            android:fragment="com.android.settings.tesla.Traffic"
+            android:layout="@layout/preference_traffic"
+            android:title="@string/traffic_category" />
 
          <Preference
             android:key="statusbar_notifications"
