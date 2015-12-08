@@ -505,4 +505,8 @@
     <string name="battery_bar_animate_title">Charging animation</string>
     <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion!</string>
 
+    <!-- Statusbar Tesla logo -->
+    <string name="status_bar_tesla_logo_title">Tesla logo</string>
+    <string name="status_bar_tesla_logo_summary">Enable to show Tesla logo on the left side of statusbar</string>
+    <string name="status_bar_tesla_logo_color">Tesla logo color</string>
 </resources>
