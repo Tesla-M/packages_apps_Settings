@@ -64,6 +64,12 @@
             android:summary="@string/status_bar_custom_header_summary"
             android:defaultValue="false"/>
 
+          <Preference
+            android:key="tesla_logo"
+            android:fragment="com.android.settings.tesla.TeslaLogo"
+            android:layout="@layout/preference_teslalogo"
+            android:title="@string/status_bar_tesla_logo_title" />
+
          <Preference
             android:key="weather"
             android:fragment="com.android.settings.tesla.Weather"
