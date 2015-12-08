@@ -518,4 +518,10 @@
     <string name="wifi_setting_countrycode_error">There was a problem setting the region code.</string>
     <string name="wifi_setting_countrycode_default">Default</string>
 
+    <!-- MediaScanner behavior on boot -->
+    <string name="media_scanner_on_boot_title">MediaScanner behavior on boot</string>
+    <string name="media_scanner_on_boot_enabled">Scan media</string>
+    <string name="media_scanner_on_boot_ask">Ask to scan (notification)</string>
+    <string name="media_scanner_on_boot_disabled">Do not scan media</string>
+
 </resources>
