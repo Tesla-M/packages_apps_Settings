@@ -466,4 +466,8 @@
     <string name="status_bar_brightness_control_summary">Adjust brightness by sliding across status bar</string>
     <string name="status_bar_brightness_control_info">Automatic brightness must be disabled</string>
 
+    <!-- Headset Plugged In notification -->
+    <string name="headset_plugged_in_title">Headset Plugged In notification</string>
+    <string name="headset_plugged_in_summary">Enable notification for when the headset is plugged in</string>
+
 </resources>
