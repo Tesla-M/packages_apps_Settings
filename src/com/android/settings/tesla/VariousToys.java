@@ -16,8 +16,11 @@
 
 package com.android.settings.tesla;
 
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.ContentResolver;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -30,6 +33,7 @@ import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import android.provider.Settings.SettingNotFoundException;
 import com.android.internal.logging.MetricsLogger;
 import com.android.settings.Utils;
 
