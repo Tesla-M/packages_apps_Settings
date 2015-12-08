@@ -36,6 +36,7 @@
     <string name="navigation_screen_title">Navigation</string>
     <string name="various_toys">Various Toys</string>
     <string name="quicksettings_category">Quick Settings</string>
+    <string name="recents_category">Recents</string>
     <string name="expanded_desktop_category">Expanded Desktop</string>
     <string name="statusbar_notifications_category">Notifications</string>
     <string name="listview_animations_category">List View Animations</string>
@@ -449,5 +450,10 @@
     <string name="show_carrier_keyguard">Keyguard carrier</string>
     <string name="show_carrier_statusbar">Status bar carrier</string>
     <string name="show_carrier_enabled">Enabled</string>
+
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Recents panel Search bar</string>
+    <string name="recents_searchbar_summary_enabled">Search bar in recents menu is enabled</string>
+    <string name="recents_searchbar_summary_disabled">Search bar in recents menu is disabled</string>
 
 </resources>
