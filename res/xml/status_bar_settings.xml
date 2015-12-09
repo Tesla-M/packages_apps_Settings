@@ -69,9 +69,4 @@
             android:fragment="com.android.settings.tesla.TeslaLogo"
             android:title="@string/status_bar_tesla_logo_title" />
 
-         <Preference
-            android:key="weather"
-            android:fragment="com.android.settings.tesla.Weather"
-            android:title="@string/weather_category" />
-
 </PreferenceScreen>
