@@ -52,4 +52,9 @@
         android:fragment="com.android.settings.tesla.VariousToys"
         android:title="@string/various_toys" />
 
+    <Preference
+        android:key="weather"
+        android:fragment="com.android.settings.tesla.Weather"
+        android:title="@string/weather_category" />
+
 </PreferenceScreen>
