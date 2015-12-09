@@ -2411,9 +2411,14 @@
                 android:value="true" />
         </activity>
 
+	<!-- Tesla Activities -->
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
         <activity android:name="com.android.settings.tesla.Traffic" />
+        <activity android:name="com.android.settings.tesla.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.android.settings.tesla.GestureAnywhereCreateGestureActivity" />
+
+	<!-- Tesla Activities End -->
 
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
