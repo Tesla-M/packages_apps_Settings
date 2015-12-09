@@ -67,5 +67,10 @@
             android:entries="@array/entries_scrollingcache"
             android:entryValues="@array/values_scrollingcache" />
 
+         <PreferenceScreen
+            android:key="gesture_anywhere"
+            android:fragment="com.android.settings.tesla.GestureAnywhereSettings"
+            android:title="@string/gesture_anywhere_title" />
+
 </PreferenceScreen>
 
