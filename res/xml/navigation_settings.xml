@@ -3,6 +3,12 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+        <PreferenceScreen
+            android:key="navigation_bar"
+            android:fragment="com.android.settings.tesla.NavBar"
+            android:summary="@string/navigation_bar_settings_summary"
+            android:title="@string/navigation_bar_buttons" />
+
         <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="navigation_bar_show"
             android:title="@string/navbar_enable_bar"
