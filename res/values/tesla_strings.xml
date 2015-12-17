@@ -755,4 +755,10 @@
     <string name="doze_brightness_title">Doze brightness level</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
 
+	<!-- Wakeup section under Display settings -->
+    <string name="wakeup_section_header">Wake up options</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
 </resources>
