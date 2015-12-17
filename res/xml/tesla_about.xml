@@ -53,5 +53,8 @@
 	        android:title="John Brewer (TheRingmaster)"
 		    android:summary="Tesla lead developer"/>
 	    </PreferenceCategory>
-
+	    <Preference
+	        android:title="Anthony Pyrtle (Yayo)"
+	            android:summary="Tesla hammerhead maintainer/developer"/>
+	    </PreferenceCategory>       
 </PreferenceScreen>
