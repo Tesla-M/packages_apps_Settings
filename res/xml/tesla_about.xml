@@ -51,10 +51,11 @@
 
 	    <Preference
 	        android:title="John Brewer (TheRingmaster)"
-		    android:summary="Tesla lead developer"/>
-	    </PreferenceCategory>
+		    android:summary="Tesla lead developer" />
+		    
 	    <Preference
 	        android:title="Anthony Pyrtle (Yayo)"
-	            android:summary="Tesla hammerhead maintainer/developer"/>
+	            android:summary="Tesla hammerhead maintainer/developer" />
+	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
