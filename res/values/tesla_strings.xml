@@ -41,6 +41,7 @@
     <string name="header_category_personalization">Personalization</string>
     <string name="animations_category">Animations</string>
     <string name="battery_category">Battery</string>
+    <string name="breathing_notifications_category">Breathing Notifications</string>
     <string name="system_title">General</string>
     <string name="lockscreen_title">Lock screen</string>
     <string name="navigation_screen_title">Navigation</string>
@@ -760,5 +761,12 @@
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Breathing Notifications -->
+    <string name="breathing_notifications_title">Breathing notifications</string>
+    <string name="missed_call_breath_title">Breathing Missed Call</string>
+    <string name="missed_call_breath_summary">Will give your missed call notifications a breathing effect in the statusbar</string>
+    <string name="voicemail_breath_title">Breathing Voicemail</string>
+    <string name="voicemail_breath_summary">Will give your voicemail notifications a breathing effect in the statusbar</string>
 
 </resources>
