@@ -47,15 +47,19 @@
 		<!-- Developers -->
 	    <PreferenceCategory
 	        android:key="category_tesla_developers"
-	        android:title="Developers">
+	        android:title="Tesla Family">
 
 	    <Preference
 	        android:title="John Brewer (TheRingmaster)"
-		    android:summary="Tesla lead developer" />
+		    android:summary="Lead developer/Shamu maintainer" />
+
+	    <Preference
+	        android:title="Char G"
+		    android:summary="Community moderator" />
 		    
 	    <Preference
 	        android:title="Anthony Pyrtle (Yayo)"
-	            android:summary="Tesla hammerhead maintainer/developer" />
+	            android:summary="Hammerhead maintainer/developer" />
 	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
