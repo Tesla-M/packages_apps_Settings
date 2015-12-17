@@ -60,6 +60,10 @@
 	    <Preference
 	        android:title="Anthony Pyrtle (Yayo)"
 	            android:summary="Hammerhead maintainer/developer" />
+	     
+	    <Preference
+	        android:title="Adam Ovadia (oadam11)"
+	            android:summary="LG maintainer/developer" />
 	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
