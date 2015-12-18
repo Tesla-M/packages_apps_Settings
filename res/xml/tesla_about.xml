@@ -64,6 +64,10 @@
 	    <Preference
 	        android:title="Adam Ovadia (oadam11)"
 	            android:summary="LG maintainer/developer" />
-	            
+
+	    <Preference
+	        android:title="Martin Coulon (martinusbe)"
+	            android:summary="Oneplus -One/-Two maintainer" />
+	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
