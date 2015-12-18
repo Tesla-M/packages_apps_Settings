@@ -68,6 +68,10 @@
 	    <Preference
 	        android:title="Martin Coulon (martinusbe)"
 	            android:summary="Oneplus -One/-Two maintainer" />
+	            
+	    <Preference
+	        android:title="Alex Couderc (Alx31)"
+	            android:summary="Sony Xperia maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
