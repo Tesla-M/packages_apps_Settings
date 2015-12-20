@@ -930,4 +930,10 @@
     <string name="qs_num_columns_title">Number of tiles per row</string>
     <string name="qs_num_columns_showing">%1$s tiles per row showing</string>
 
+    <!-- Keyguard notifications options -->
+    <string name="app_notification_show_on_keyguard_title">Show on lockscreen</string>
+    <string name="app_notification_show_on_keyguard_summary">Show notifications from this app on the lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Disable ongoing on lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Never show ongoing notifications from this app on the lockscreen</string>
+
 </resources>
