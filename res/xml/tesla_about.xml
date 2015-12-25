@@ -81,5 +81,9 @@
 	        android:title="Chris Hall (chris4824)"
 	            android:summary="S4 (Most Variants), Hercules, Skyrocket maintainer" />
   	            
+  	     <Preference
+	        android:title="Filip A (slebit)"
+	            android:summary="Flounder/ Grouper/ Clark/ V500 maintainer" />
+	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
