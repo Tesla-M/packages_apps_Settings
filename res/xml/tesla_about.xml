@@ -72,6 +72,10 @@
 	    <Preference
 	        android:title="Alex Couderc (Alx31)"
 	            android:summary="Sony Xperia maintainer" />
-	            	            
+	            
+	    <Preference
+  	        android:title="Anik khan (Anik1199)"
+  	            android:summary="Android One maintainer/developer" />
+  	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
