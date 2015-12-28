@@ -77,5 +77,9 @@
   	        android:title="Anik khan (Anik1199)"
   	            android:summary="Android One maintainer/developer" />
   	            
+  	     <Preference
+	        android:title="Chris Hall (chris4824)"
+	            android:summary="S4 (Most Variants), Hercules, Skyrocket maintainer" />
+  	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
