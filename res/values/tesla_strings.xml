@@ -976,4 +976,6 @@
     <string name="app_ops_summary">Control apps permissions with more power</string>
     <string name="privacy_settings_cyanogenmod_category" translatable="false">CyanogenMod</string>
 
+    <string name="status_bar_show_clock_second_title">Clock seconds</string>
+
 </resources>
