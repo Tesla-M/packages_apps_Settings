@@ -30,6 +30,11 @@
             android:entryValues="@array/toast_animation_values"
             android:persistent="false" />
 
+        <PreferenceScreen
+        android:key="ime_animations"
+        android:fragment="com.android.settings.tesla.KeyboardAnimationInterfaceSettings"
+        android:title="@string/ime_animation_title" />
+
         <PreferenceCategory
             android:key="listview_animations_category"
             android:title="@string/listview_animations_category"/>

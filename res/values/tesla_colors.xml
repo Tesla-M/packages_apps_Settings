@@ -4,5 +4,7 @@
     <color name="blacklist_enabled">#DD2C00</color>
     <color name="blacklist_disabled">#D7D7D7</color>
 
+    <color name="secondary_text_material_dark">#b3ffffff</color>
+
 </resources>
 
