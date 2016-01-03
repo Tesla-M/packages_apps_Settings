@@ -691,4 +691,7 @@
     <string name="recents_fullscreen_summary_enabled">Recents in fullscreen is enabled</string>
     <string name="recents_fullscreen_summary_disabled">Recents in fullscreen is disabled</string>
 
+    <!-- Lockscreen Shortcuts -->
+    <string name="lockscreen_targets_title">Bottom L/R Shortcuts</string>
+
 </resources>
