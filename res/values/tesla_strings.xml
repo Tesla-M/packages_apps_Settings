@@ -26,6 +26,16 @@
     <string name="reset_message">Reset all entries to default?</string>
     <string name="additional_options_title">Additional options</string>
 
+<!-- UBER GCC version info -->
+    <string name="uber_android">GCC android</string>
+    <string name="uber_android_default">Unknown</string>
+    <string name="uber_kernel">GCC kernel</string>
+    <string name="uber_kernel_default">Unknown</string>
+
+<!-- UBER GCC build flags info -->
+    <string name="uber_flags">Build flags</string>
+    <string name="uber_flags_default">None</string>
+
     <!-- TeslaCoil -->
     <string name="interface_settings_title">TeslaCoil</string>
     <string name="header_category_personalization">Personalization</string>
