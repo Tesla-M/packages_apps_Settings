@@ -31,10 +31,12 @@
 
     <PreferenceScreen
         android:key="navigation_general_category"
+        android:fragment="com.android.settings.tesla.NavigationSettings"
         android:title="@string/navigation_screen_title" />
 
     <PreferenceScreen
         android:key="lock_screen_general_category"
+        android:fragment="com.android.settings.tesla.LockScreenSettings"
         android:title="@string/lockscreen_title" />
 
     <Preference
