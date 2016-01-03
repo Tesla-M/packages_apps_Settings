@@ -21,4 +21,10 @@
             android:title="@string/lockscreen_wallpaper_title"
             android:fragment="com.android.settings.tesla.fragments.LockscreenSettings" />
 
+        <PreferenceScreen
+        android:key="lock_clock_fonts"
+        android:title="@string/lock_clock_font_title"
+        android:summary="@string/lock_clock_font_summary"
+        android:fragment="com.android.settings.tesla.fragments.LockClockFonts" />
+
 </PreferenceScreen>
