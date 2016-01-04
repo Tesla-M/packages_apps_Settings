@@ -10,6 +10,12 @@
             android:title="@string/navigation_bar_buttons" />
 
         <com.android.settings.tesla.SystemSettingSwitchPreference
+             android:key="navigation_bar_menu_arrow_keys"
+             android:title="@string/navigation_bar_arrow_keys_title"
+             android:summary="@string/navigation_bar_arrow_keys_summary"
+             android:defaultValue="false" />
+
+        <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="navigation_bar_show"
             android:title="@string/navbar_enable_bar"
             android:defaultValue="true" />
@@ -26,11 +32,16 @@
             android:defaultValue="0xffffff"
             android:dependency="navigation_bar_show" />
 
-       <com.android.settings.tesla.SystemSettingSwitchPreference
+         <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="double_tap_sleep_navbar"
             android:title="@string/double_tap_sleep_nav_bar_title"
             android:summary="@string/double_tap_sleep_nav_bar_summary"
             android:defaultValue="false" />
+
+         <PreferenceScreen
+            android:key="app_circle_bar"
+            android:fragment="com.android.settings.tesla.fragments.AppCircleBar"
+            android:title="@string/app_circle_bar_title" />
 
         <SwitchPreference
             android:key="dim_nav_buttons"
