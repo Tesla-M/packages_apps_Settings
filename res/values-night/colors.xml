@@ -6,6 +6,8 @@
     <color name="theme_accent">#ff33b5e5</color>
 
     <!-- Gesture Anywhere -->
-    <color name="ga_gesture_color">@android:color/holo_blue_light</color>
+    <color name="ga_gesture_color">#ff33b5e5</color>
+
+    <drawable name="fp_enrollment_header_landscape">#33b5e5</drawable>
 
 </resources>
