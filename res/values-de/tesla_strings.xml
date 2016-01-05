@@ -609,6 +609,7 @@
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Verknüpfte Klingel und Benachrichtigungslautstärke</string>
     <string name="notification_volume_option_title">Benachrichtigungslautstärke</string>
+    <string name="ring_notification_volume_option_title">Klingel und Benachrichtigungslautstärke</string>
 
     <!-- Navigation bar -->
     <string name="navigation_bar_category">Navigation Bar</string>
@@ -724,4 +725,63 @@
     <string name="volume_steps_system_title">Lautstärkestufe: System</string>
     <string name="volume_steps_voice_call_title">Lautstärkestufe: Sprachanruf</string>
     <string name="volume_steps_reset">Zurücksetzen</string>
+
+    <!-- PA Pie control -->
+    <string name="pa_piecontrol_settings_summary">Customize PA Pie 2.0 Ziel, Stil, Größe und Farbe</string>
+    <string name="pa_pie_control_title">PA Pie Steuerung</string>
+    <string name="pa_pie_control_enable_title">Pie Steuerung aktivieren</string>
+    <string name="pa_pie_targets_title">Pie Ziele</string>
+    <string name="pa_pie_style_title">Pie Stile</string>
+    <string name="pa_pie_menu_title">Menü Button immer anzeigen</string>
+    <string name="pa_pie_menu_summary">Unabhängig davon, wird die Menü-Taste immer angezeigt, auch wenn sie nicht benötigt wird</string>
+    <string name="pa_pie_size_title">Pie Größe</string>
+    <string name="pa_pie_size_summary">Pie Steuerung Größe definieren</string>
+    <string name="pa_pie_size_small">klein</string>
+    <string name="pa_pie_size_large">groß</string>
+    <string name="pa_pie_size_gigantic">gigantisch</string>
+    <string name="pa_pie_size_enormous">enorm</string>
+    <string name="pa_pie_mode_default">Standard</string>
+    <string name="pa_pie_gravity_title">Pie Schwerkraft</string>
+    <string name="pa_pie_gravity_summary">Ort wählen, wo Pie plaziert wird</string>
+    <string name="pa_pie_gravity_bottom">Unten</string>
+    <string name="pa_pie_gravity_right">Rechts</string>
+    <string name="pa_pie_gravity_left">Links</string>
+    <string name="pa_pie_gap_title">Lücke</string>
+    <string name="pa_pie_gap_summary">Lücke einstellen, welche die Kreiselemente trennt</string>
+    <string name="pa_pie_angle_title">Pie Winkel</string>
+    <string name="pa_pie_angle_summary">Winkel der Pie Kante einstellen</string>
+    <string name="pa_pie_angle_none">keiner (alt)</string>
+    <string name="pa_pie_angle_small">klein</string>
+    <string name="pa_pie_angle_big">normal (Standard)</string>
+    <string name="pa_pie_angle_huge">groß</string>
+    <string name="pa_pie_angle_super">enorm</string>
+    <string name="pa_pie_gap_none">keine</string>
+    <string name="pa_pie_gap_small">klein</string>
+    <string name="pa_pie_gap_big">groß (Standard)</string>
+    <string name="pa_pie_gap_huge">enorm</string>
+    <string name="pa_pie_mode_title">Pie Stile</string>
+    <string name="pa_pie_mode_summary">Animationen und Status Ergänzungen verwalten</string>
+    <string name="pa_pie_mode_bare">blank</string>
+    <string name="pa_pie_mode_quick">schnell</string>
+    <string name="pa_pie_mode_default">Standard</string>
+    <string name="pa_pie_mode_slow">langsam</string>
+    <string name="pa_pie_lastapp_title">letzte App</string>
+    <string name="pa_pie_lastapp_summary">Letzte App Button aktivieren</string>
+    <string name="pa_pie_killtask_summary">Lill Task Button aktivieren</string>
+    <string name="pa_pie_notifications_title">Benachrichtigungen</string>
+    <string name="pa_pie_notifications_summary">Benachrichtigungs Button aktivieren</string>
+    <string name="pa_pie_settings_panel_title">Schnelleinstellungen Panel</string>
+    <string name="pa_pie_settings_panel_summary">Erweitertes Schnelleinstellungs Panel aktivieren</string>
+    <string name="pa_pie_screenshot_summary">Screenshot Button aktivieren</string>
+    <string name="pa_pie_color_title">Pie Farbeinstellungen</string>
+    <string name="pa_pie_color_style_title">Pie Farbstil</string>
+    <string name="pa_pie_background_title">Hintergrundfarbe</string>
+    <string name="pa_pie_select_title">Auswahl Farbe</string>
+    <string name="pa_pie_outlines_title">Umrissfarbe</string>
+    <string name="pa_pie_status_clock_title">Uhr Farbe</string>
+    <string name="pa_pie_status_title">Status Farbe</string>
+    <string name="pa_pie_chevron_title">Chevron Farbe</string>
+    <string name="pa_pie_juice_title">Batterie-Saft Farbe</string>
+    <string name="pa_pie_button_color">Button Farbe</string>
+    <string name="pa_pie_button_color_title">Buttons Farbe</string>
 </resources>
