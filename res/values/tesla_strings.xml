@@ -69,7 +69,7 @@
     <string name="slimota_title">Tesla Updates</string>
     
     <!-- Navigation bar -->
-    <string name="extra_navigation_title">Extra navigation bar options</string>
+    <string name="extra_navigation_title">Extra navigation options</string>
     <string name="navigation_bar_basic_title">Navigation bar options</string>
     <string name="slim_dim_title">SlimDim</string>
     <string name="navigation_bar_category">Navigation bar</string>
