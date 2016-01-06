@@ -5,7 +5,7 @@
 
     <PreferenceCategory
         android:key="navigation_bar_options"
-        android:title="@string/naviation_bar_basic_title" >
+        android:title="@string/navigation_bar_basic_title" >
 
         <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="navigation_bar_show"
