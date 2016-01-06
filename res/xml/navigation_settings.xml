@@ -3,17 +3,9 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-         <PreferenceScreen
-            android:key="app_circle_bar"
-            android:fragment="com.android.settings.tesla.fragments.AppCircleBar"
-            android:title="@string/app_circle_bar_title" />
-
-        <!--PA Pie Control -->
-        <PreferenceScreen
-             android:key="pa_pie_control"
-             android:title="@string/pa_pie_control_title"
-             android:fragment="com.android.settings.paranoid.PieControl"
-             />
+    <PreferenceCategory
+        android:key="navigation_bar_options"
+        android:title="@string/naviation_bar_basic_title" >
 
         <com.android.settings.tesla.SystemSettingSwitchPreference
             android:key="navigation_bar_show"
@@ -49,6 +41,12 @@
             android:title="@string/double_tap_sleep_nav_bar_title"
             android:summary="@string/double_tap_sleep_nav_bar_summary"
             android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="slim_dim"
+        android:title="@string/slim_dim_title" >
 
         <SwitchPreference
             android:key="dim_nav_buttons"
@@ -86,5 +84,25 @@
             android:dependency="dim_nav_buttons_animate"
             android:title="@string/dim_nav_buttons_animate_duration_title"
             android:summary="@string/dim_nav_buttons_animate_duration_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="extra_navigation_options"
+        android:title="@string/extra_navigation_title" >
+
+         <PreferenceScreen
+            android:key="app_circle_bar"
+            android:fragment="com.android.settings.tesla.fragments.AppCircleBar"
+            android:title="@string/app_circle_bar_title" />
+
+        <!--PA Pie Control -->
+        <PreferenceScreen
+             android:key="pa_pie_control"
+             android:title="@string/pa_pie_control_title"
+             android:fragment="com.android.settings.paranoid.PieControl"
+             />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
