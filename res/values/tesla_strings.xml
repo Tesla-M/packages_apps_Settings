@@ -69,7 +69,7 @@
     <string name="slimota_title">Tesla Updates</string>
     
     <!-- Navigation bar -->
-    <string name="extra_navigation_title">Extra navigation bar options</string>
+    <string name="extra_navigation_title">Extra navigation options</string>
     <string name="navigation_bar_basic_title">Navigation bar options</string>
     <string name="slim_dim_title">SlimDim</string>
     <string name="navigation_bar_category">Navigation bar</string>
@@ -890,4 +890,7 @@
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
 
+    <string name="daynight_title">Day/Night</string>
+    <string name="daynight_summary">Turn on The Day/Night Settings</string>
+    <string name="daynight_header_title">Day/Night</string>
 </resources>
