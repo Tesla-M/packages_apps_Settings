@@ -784,4 +784,8 @@
     <string name="pa_pie_juice_title">Batterie-Saft Farbe</string>
     <string name="pa_pie_button_color">Button Farbe</string>
     <string name="pa_pie_button_color_title">Buttons Farbe</string>
+
+    <string name="daynight_title">Tag/Nacht</string>
+    <string name="daynight_summary">Tag/Nacht Einstellungen</string>
+    <string name="daynight_header_title">Tag/Nacht</string>
 </resources>
