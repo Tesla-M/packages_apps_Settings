@@ -212,6 +212,14 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         } else {
             removePreference(KEY_DOZE_CATEGORY);
         }
+
+        mVolumeRockerWake = (SwitchPreference) findPreference(VOLUME_ROCKER_WAKE);
+        mVolumeRockerWake.setOnPreferenceChangeListener(this);
+        int volumeRockerWake = Settings.System.getInt(getContentResolver(),
+                VOLUME_ROCKER_WAKE, 0);
+        mVolumeRockerWake.setChecked(volumeRockerWake != 0);
+        mWakeWhenPluggedOrUnplugged =
+                (SwitchPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
     }
 
     private static boolean allowAllRotations(Context context) {
