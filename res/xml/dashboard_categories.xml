@@ -84,6 +84,13 @@
                 android:title="@string/interface_settings_title"
                 />
 
+        <dashboard-tile
+ 		android:id="@+id/daynight"
+                android:icon="@drawable/ic_daynight"
+ 		android:fragment="com.android.settings.tesla.DayNightSettings"
+ 		android:title="@string/daynight_title"
+		/>
+
 	<!-- Layers -->
         <dashboard-tile
                 android:id="@+id/bitsyko_layers"
