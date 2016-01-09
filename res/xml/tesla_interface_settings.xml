@@ -19,13 +19,6 @@
     android:title="@string/interface_settings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-
-     <PreferenceScreen
- 	android:key="daynight"
- 	android:fragment="com.android.settings.tesla.DayNightSettings"
- 	android:title="@string/daynight_title"
- 	android:summary="@string/daynight_summary"/>
- 
      <Preference
         android:key="generalsettings"
         android:fragment="com.android.settings.tesla.GeneralSettings"
