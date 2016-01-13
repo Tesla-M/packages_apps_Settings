@@ -788,4 +788,8 @@
     <string name="daynight_title">Tag/Nacht</string>
     <string name="daynight_summary">Tag/Nacht Einstellungen</string>
     <string name="daynight_header_title">Tag/Nacht</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill App Back Button</string>
+    <string name="kill_app_longpress_back_summary">Killed durch langes drücken der Zurück Taste die Vordergrund App</string>
 </resources>
