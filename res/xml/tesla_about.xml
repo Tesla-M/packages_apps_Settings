@@ -84,6 +84,10 @@
   	     <Preference
 	        android:title="Filip A (slebit)"
 	            android:summary="Flounder/ Grouper/ Clark/ V500 maintainer" />
+
+	     <Preference
+	        android:title="Vibhor Chaudhary (vibhu0009)"
+	            android:summary="YU -lettuce/-tomato maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
