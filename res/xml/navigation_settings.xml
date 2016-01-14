@@ -7,7 +7,7 @@
         android:key="navigation_bar_options"
         android:title="@string/navigation_bar_basic_title" >
 
-        <com.android.settings.tesla.SystemSettingSwitchPreference
+        <SwitchPreference
             android:key="navigation_bar_show"
             android:title="@string/navbar_enable_bar"
             android:defaultValue="true" />
