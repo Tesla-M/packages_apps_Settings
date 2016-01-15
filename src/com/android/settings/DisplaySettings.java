@@ -93,6 +93,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private static final String SETTINGS_TITLE_TEXT_SIZE  = "settings_title_text_size";
     private static final String SETTINGS_CATEGORY_TEXT_SIZE  = "settings_category_text_size";
+    private static final String DASHBOARD_FONT_STYLE = "dashboard_font_style";
 
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
     private static final String DASHBOARD_SWITCHES = "dashboard_switches";
@@ -120,6 +121,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private PreferenceScreen mAdvancedDozeOptions;
     private SeekBarPreference mDashTitleTextSize;
     private SeekBarPreference mDashCategoryTextSize;
+    private ListPreference mDashFontStyle;
 
     private static final String ROTATION_ANGLE_0 = "0";
     private static final String ROTATION_ANGLE_90 = "90";
@@ -190,6 +192,12 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mDashCategoryTextSize.setValue(Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, 10));
         mDashCategoryTextSize.setOnPreferenceChangeListener(this);
+
+        mDashFontStyle = (ListPreference) findPreference(DASHBOARD_FONT_STYLE);
+        mDashFontStyle.setOnPreferenceChangeListener(this);
+        mDashFontStyle.setValue(Integer.toString(Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.DASHBOARD_FONT_STYLE, 0)));
+        mDashFontStyle.setSummary(mDashFontStyle.getEntry());
 
         if (isAutomaticBrightnessAvailable(getResources())) {
             mAutoBrightnessPreference = (SwitchPreference) findPreference(KEY_AUTO_BRIGHTNESS);
@@ -609,6 +617,14 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             int width = ((Integer)objValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.SETTINGS_CATEGORY_TEXT_SIZE, width);
+            return true;
+        }
+        if (preference == mDashFontStyle) {
+            int val = Integer.parseInt((String) objValue);
+            int index = mDashFontStyle.findIndexOfValue((String) objValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.DASHBOARD_FONT_STYLE, val);
+            mDashFontStyle.setSummary(mDashFontStyle.getEntries()[index]);
             return true;
         }
         if (preference == mCameraDoubleTapPowerGesturePreference) {
