@@ -794,7 +794,7 @@
     <string name="kill_app_longpress_back_summary">Killed durch langes drücken der Zurück Taste die Vordergrund App</string>
 
     <!-- Increasing ring tone volume -->
- +    <string name="increasing_ring_volume_option_title">Ansteigender Klingelton</string>
- +    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
- +    <string name="increasing_ring_ramp_up_time_title">Zeit bis Endlautstärke</string>
+    <string name="increasing_ring_volume_option_title">Ansteigender Klingelton</string>
+    <string name="increasing_ring_min_volume_title">Anfangslautstärke</string>
+    <string name="increasing_ring_ramp_up_time_title">Zeit bis Endlautstärke</string>
 </resources>
