@@ -903,4 +903,9 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- Dashboard tileview double lines -->
+    <string name="dashboard_tileview_double_lines_title">Dashboard tile title</string>
+    <string name="dashboard_tileview_double_lines_summary_on">Show dashboard titles in 1 line</string>
+    <string name="dashboard_tileview_double_lines_summary_off">Show dashboard titles in 2 lines</string>
+
 </resources>
