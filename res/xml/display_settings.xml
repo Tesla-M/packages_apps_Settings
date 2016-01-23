@@ -75,6 +75,15 @@
                 android:summary="@string/tap_to_wake_summary"
                 android:persistent="false" />
 
+        <ListPreference
+                android:key="dashboard_columns"
+                android:title="@string/dashboard_columns_title"
+                android:dialogTitle="@string/dashboard_columns_dialog_title"
+                android:entries="@array/dashboard_columns_entries"
+                android:entryValues="@array/dashboard_columns_values"
+                android:summary="@string/dashboard_columns_summary"
+                android:persistent="false" />
+
         <com.android.settings.tesla.SystemSettingSwitchPreference
                 android:key="dashboard_tileview_double_lines"
                 android:title="@string/dashboard_tileview_double_lines_title"
@@ -90,15 +99,6 @@
                 android:entries="@array/entries_font_size"
                 android:entryValues="@array/entryvalues_font_size"
                 android:dialogTitle="@string/dialog_title_font_size" />
-
-        <ListPreference
-                android:key="dashboard_columns"
-                android:title="@string/dashboard_columns_title"
-                android:dialogTitle="@string/dashboard_columns_dialog_title"
-                android:entries="@array/dashboard_columns_entries"
-                android:entryValues="@array/dashboard_columns_values"
-                android:summary="@string/dashboard_columns_summary"
-                android:persistent="false" />
 
         <PreferenceScreen
                 android:key="display_rotation"
