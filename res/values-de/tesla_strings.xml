@@ -109,6 +109,10 @@
     <string name="hardware_keys_action_in_app_search">In-App Suche</string>
     <string name="hardware_keys_action_launch_camera">Kamera starten</string>
     <string name="hardware_keys_action_sleep">Bildschirm ausschalten</string>
+    <string name="button_wake_title">Gerät aufwecken</string>
+    <string name="home_wake_summary">Durch drücken des Home Buttons wird das Gerät aufgeweckt</string>
+    <string name="volbtn_music_controls_title">Wiedergabesteuerung</string>
+    <string name="volbtn_music_controls_summary">Bei ausgeschaltetem Bildschirm wird durch langes drücken der Lautstärketaste zum nächsten Musiktitel gesprungen</string>
 
     <!-- Notification light dialogs -->
     <string name="edit_light_settings">Licht Einstellungen bearbeiten</string>
