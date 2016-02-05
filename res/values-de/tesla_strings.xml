@@ -822,4 +822,15 @@
     <!-- QS Tiles Columns -->
     <string name="qs_num_columns_title">Anzahl der Kacheln pro Reihe</string>
     <string name="qs_num_columns_showing">%1$s Kacheln pro Reihe anzeigen</string>
+
+    <!-- Keyguard notifications options -->
+    <string name="app_notification_show_on_keyguard_title">Auf Lockscreen anzeigen</string>
+    <string name="app_notification_show_on_keyguard_summary">Benachrichtigunen dieser App auf dem Lockscreen anzeigen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_title">Deaktivieren der laufenden auf dem Lockscreen</string>
+    <string name="app_notification_no_ongoing_on_keyguard_summary">Keine Benachrichtigungen dieser App auf dem Lockscreen anzeigen</string>
+
+    <!-- Notifications frequency --> 
+    <string name="notifications_frequency_limit_title">Limit Benachrichtigungshäufigkeit</string>
+    <string name="notifications_frequency_limit_never">kein Limit</string>
+    <string name="notifications_frequency_limit_setting">"aller %1$s Sekunden"</string>
 </resources>
