@@ -833,4 +833,31 @@
     <string name="notifications_frequency_limit_title">Limit Benachrichtigungshäufigkeit</string>
     <string name="notifications_frequency_limit_never">kein Limit</string>
     <string name="notifications_frequency_limit_setting">"aller %1$s Sekunden"</string>
+
+    <!-- Blacklist preferences -->
+    <string name="blacklist_title">Blockierte Anruferliste</string>
+    <string name="blacklist_edit_dialog_title">blockierte Telefonnummer bearbeiten</string>
+    <string name="blacklist_prefs">Einstellungen</string>
+    <string name="blacklist_button_delete">löschen</string>
+    <string name="blacklist_empty_text">Keine blockierten Nummern vorhanden. Eintrag durch drücken des (+) Buttons hinzufügen.</string>
+    <string name="blacklist_summary_disabled">deaktiviert</string>
+    <string name="blacklist_summary">Sie werden keine Anrufe oder Nachrichten von Telefonnummern aus der blockierten Anruferliste erhalten</string>
+    <string name="blacklist_notify">Benachrichtigungen anzeigen</string>
+    <string name="blacklist_private_numbers_title">Private Nummern</string>
+    <string name="blacklist_private_numbers_summary_disabled">Private Nummern nicht blockieren</string>
+    <string name="blacklist_private_numbers_summary">Blockiere eingehende <xliff:g id="type">%s</xliff:g> von privaten Nummern</string>
+    <string name="blacklist_unknown_numbers_title">Unbekannte Nummern</string>
+    <string name="blacklist_unknown_numbers_summary_disabled">Anrufe oder Nachrichten von Nummern die nicht in der Kontaktliste sind werden nicht blockiert</string>
+    <string name="blacklist_unknown_numbers_summary">Blockiere eingehende <xliff:g id="type">%s</xliff:g> von Nummern die nicht in der Kontaktliste sind</string>
+    <string name="blacklist_summary_type_calls_only">Anrufe</string>
+    <string name="blacklist_summary_type_messages_only">Nachrichten</string>
+    <string name="blacklist_summary_type_calls_and_messages">Anrufe und Nachrichten</string>
+    <string name="blacklist_policy_block_calls">Blockiere eingehende Anrufe</string>
+    <string name="blacklist_policy_block_messages">Blockiere eingehende Nachrichten</string>
+    <string name="blacklist_bad_number_add">Unmöglich eine ungültige Nummer hinzuzufügen</string>
+
+    <!-- Blacklist management -->
+    <string name="remove_blacklist_number_title">Nummer entfernen</string>
+    <string name="remove_blacklist_entry">Diese blockierte Nummer entfernen?</string>
+    <string name="select_contact">Kontakt auswählen</string>
 </resources>
