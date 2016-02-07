@@ -58,13 +58,13 @@
             android:fragment="com.android.settings.tesla.StatusbarNotifications"
             android:title="@string/statusbar_notifications_category" />
 
-         <com.android.settings.tesla.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="status_bar_custom_header"
             android:title="@string/status_bar_custom_header_title"
             android:summary="@string/status_bar_custom_header_summary"
             android:defaultValue="false"/>
 
-         <com.android.settings.tesla.SystemSettingSwitchPreference
+         <SwitchPreference
             android:key="status_bar_custom_header_default"
             android:title="@string/status_bar_custom_header_default_title"
             android:summary="@string/status_bar_custom_header_default_summary"
