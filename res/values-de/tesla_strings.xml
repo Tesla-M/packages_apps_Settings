@@ -196,7 +196,7 @@
     <string name="right_clock">Uhr rechts</string>
     <string name="center_clock">Uhr mitte</string>
     <string name="dont_show">nicht anzeigen</string>
-    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display">Datum</string>
     <string name="clock_date_display_summary">Display benutzerdefinierten Zeitraum, vor der Uhr</string>
     <string name="clock_date_style">Datum Stil</string>
     <string name="clock_date_style">Datum</string>
@@ -860,4 +860,9 @@
     <string name="remove_blacklist_number_title">Nummer entfernen</string>
     <string name="remove_blacklist_entry">Diese blockierte Nummer entfernen?</string>
     <string name="select_contact">Kontakt auswählen</string>
+
+    <!-- StatusBar Clock style -->
+    <string name="clock_font_style_title">Uhr Schrift Stil</string>
+    <string name="clock_font_size_title">Schriftgröße</string>
+    <string name="status_bar_show_clock_second_title">Uhr Sekunden</string>
 </resources>
