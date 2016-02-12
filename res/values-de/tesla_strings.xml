@@ -865,4 +865,9 @@
     <string name="clock_font_style_title">Uhr Schrift Stil</string>
     <string name="clock_font_size_title">Schriftgröße</string>
     <string name="status_bar_show_clock_second_title">Uhr Sekunden</string>
+
+    <!-- QuickSettings main tiles -->
+    <string name="qs_main_tiles_title">Erste Reihe vergrößern</string>
+    <string name="qs_main_tiles_summary_on">Zwei Hauptkacheln in der ersten Reihe</string>
+    <string name="qs_main_tiles_summary_off">Drei, vier oder fünf Kacheln in jeder Reihe</string>
 </resources>
