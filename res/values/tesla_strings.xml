@@ -913,6 +913,10 @@
     <string name="dashboard_tileview_double_lines_title">Dashboard tile title</string>
     <string name="dashboard_tileview_double_lines_summary_on">Show dashboard titles in 1 line</string>
     <string name="dashboard_tileview_double_lines_summary_off">Show dashboard titles in 2 lines</string>
+    <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
+    <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
+    <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
+    <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
 
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Dashboard Columns</string>
