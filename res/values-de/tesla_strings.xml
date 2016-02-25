@@ -806,6 +806,10 @@
     <string name="dashboard_tileview_double_lines_title">Dashboard Kachel Titel</string>
     <string name="dashboard_tileview_double_lines_summary_on">Dashboard Kacheln in 1 Zeile anzeigen</string>
     <string name="dashboard_tileview_double_lines_summary_off">Dashboard Kacheln in 2 Zeilen anzeigen</string>
+    <string name="dashboard_tileview_dividers_title">Dashboard Teiler</string>
+    <string name="dashboard_tileview_dividers_summary">Dashboard Teiler ausblenden</string>
+    <string name="dashboard_tileview_dividers_title">Dashboard Teiler</string>
+    <string name="dashboard_tileview_dividers_summary">Dashboard Teiler ausblenden</string>
 
     <!-- Dashboard columns -->
     <string name="dashboard_columns_title">Dashboard Spalten</string>
