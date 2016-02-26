@@ -300,14 +300,14 @@
     <!-- AOKP custom system animations -->
     <string name="activity_open_title">Animation beim öffnen einer Aktivität</string>
     <string name="activity_close_title">Animation beim schließen einer Aktivität</string>
-    <string name="task_open_title">Task öffne Animation</string>
+    <string name="task_open_title">Task öffnen Animation</string>
     <string name="task_close_title">Task schließen Animation</string>
-    <string name="task_move_to_front_title">Bewegen zur vorderen Animation</string>
-    <string name="task_move_to_back_title">Bewegen zur hinteren Animation</string>
-    <string name="wallpaper_open_title">Wallpaper öffnen Animation</string>
-    <string name="wallpaper_close_title">Wallpaper schließen Animation</string>
-    <string name="wallpaper_intra_open_title">Wallpaper intra öffnen Animation</string>
-    <string name="wallpaper_intra_close_title">Wallpaper intra schließen Animation</string>
+    <string name="task_move_to_front_title">Nach vorne verschieben</string>
+    <string name="task_move_to_back_title">Nach hinten verschieben</string>
+    <string name="wallpaper_open_title">Wallpaper öffnen</string>
+    <string name="wallpaper_close_title">Wallpaper schließen</string>
+    <string name="wallpaper_intra_open_title">Wallpaper innerhalb öffnen</string>
+    <string name="wallpaper_intra_close_title">Wallpaper innerhal schließen</string>
     <string name="animation_duration_title">Animationsdauer</string>
     <string name="title_animation_no_override">Verhindern App überschreiben</string>
     <string name="animation_duration_default">Standard</string>
@@ -333,21 +333,21 @@
     <string name="listview_wave_left">Welle (links)</string>
     <string name="listview_wave_right">Welle (rechts)</string>
     <string name="listview_scale">scalieren</string>
-    <string name="listview_stack_top">Stapel (oben)</string>
-    <string name="listview_stack_bottom">Stapel (unten)</string>
-    <string name="listview_unfold">entfalten</string>
-    <string name="listview_fold">falten</string>
-    <string name="listview_translate_left">Translate (links)</string>
-    <string name="listview_translate_right">Translate (rechts)</string>
+    <string name="listview_stack_top">Stapel (hoch)</string>
+    <string name="listview_stack_bottom">Stapel (runter)</string>
+    <string name="listview_unfold">Aufklappen</string>
+    <string name="listview_fold">Zuklappen</string>
+    <string name="listview_translate_left">Rutsch (links)</string>
+    <string name="listview_translate_right">Rutsch (rechts)</string>
 
     <!-- ListView interpolator -->
-    <string name="listview_interpolator_title">Listenansicht Interpolator</string>
+    <string name="listview_interpolator_title">Listenansicht Interpolation</string>
     <string name="listview_accelerate_interpolator">beschleunigen</string>
     <string name="listview_decelerate_interpolator">verzögern</string>
     <string name="listview_accelerate_decelerate_interpolator">beschleunigen und verzögern</string>
-    <string name="listview_overshoot_interpolator">überschwingen</string>
-    <string name="listview_anticipate_interpolator">Antizipieren</string>
-    <string name="listview_anticipate_overshoot_interpolator">Antizipieren und Überschwingen</string>
+    <string name="listview_overshoot_interpolator">Übertreffen</string>
+    <string name="listview_anticipate_interpolator">Voraussehen</string>
+    <string name="listview_anticipate_overshoot_interpolator">Voraussehen und übertreffen</string>
     <string name="listview_bounce_interpolator">springen</string>
 
     <!-- Network traffic -->
@@ -397,15 +397,15 @@
     <string name="weather_settings_summary">Konfiguriere Standort für Wetter Widget und andere Einstellungen</string>
 
     <!-- Carrier Label -->
-    <string name="carrier_options">Carrier Bezeichnung</string>
-    <string name="custom_carrier_label_title">Benutzer Carrier Bezeichnung</string>
+    <string name="carrier_options">Mobilfunkprovider-Label</string>
+    <string name="custom_carrier_label_title">Mobilfunkprovider-Label anzeigen</string>
     <string name="custom_carrier_label_explain">Bitte geben Sie eine neue Bezeichnung ein. Leer lassen für Standardbezeichnung.</string>
-    <string name="custom_carrier_label_notset">Benutzer Carrier Bezeichnung ist nicht festgelegt</string>
-    <string name="status_bar_carrier_color">Carrier Bezeichnung Farbe</string>
-    <string name="show_carrier_title">Carrier Bezeichnung</string>
+    <string name="custom_carrier_label_notset">Mobilfunkprovider-Label ist nicht festgelegt</string>
+    <string name="status_bar_carrier_color">Mobilfunkprovider-Label Farbe</string>
+    <string name="show_carrier_title">Mobilfunkprovider-Label</string>
     <string name="show_carrier_disabled">deaktiviert</string>
-    <string name="show_carrier_keyguard">Keyguard Carrier</string>
-    <string name="show_carrier_statusbar">Status Bar Carrier</string>
+    <string name="show_carrier_keyguard">Keyguard Mobilfunkprovider-Label</string>
+    <string name="show_carrier_statusbar">Status Bar Mobilfunkprovider-Label</string>
     <string name="show_carrier_enabled">aktiviert</string>
 
     <!-- Show/Hide Search Bar -->
