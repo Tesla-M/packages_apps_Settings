@@ -874,4 +874,13 @@
     <string name="qs_main_tiles_title">Erste Reihe vergrößern</string>
     <string name="qs_main_tiles_summary_on">Zwei Hauptkacheln in der ersten Reihe</string>
     <string name="qs_main_tiles_summary_off">Drei, vier oder fünf Kacheln in jeder Reihe</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power Menü Animation</string>
+    <string name="power_menu_animation_summary">Ändern Sie die Eingabe / Ausgabe-Animation des Power-Menü</string>
+    <string name="power_menu_animation_dialog_title">Power Menü Animation auswählen</string>
+    <string name="power_menu_animation_aosp">AOSP (Standard)</string>
+    <string name="power_menu_animation_bottom">Unten</string>
+    <string name="power_menu_animation_top">Oben</string>
+
 </resources>
