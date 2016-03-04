@@ -1024,4 +1024,8 @@
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
     <string name="qs_main_tiles_summary_off">Three, four or five tiles on each row</string>
 
+    <!-- Swap recents and back buttons -->
+    <string name="hardware_keys_app_switch_swap_button_title">Swap hw buttons</string>
+    <string name="hardware_keys_app_switch_swap_button_summary">Swap the order of recents and back buttons</string>
+
 </resources>
