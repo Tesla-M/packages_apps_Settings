@@ -46,7 +46,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-import com.android.internal.util.du.DeviceUtils;
+import com.android.internal.util.slim.DeviceUtils;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 public class Recents extends SettingsPreferenceFragment implements DialogCreatable,
