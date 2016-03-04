@@ -27,8 +27,9 @@
     <string name="additional_options_title">Additional options</string>
     <string name="reset_tesla">Tesla</string>
     <string name="reset_android">Android</string>
-
-<!-- UBER GCC version info -->
+    <string name="shortcut_action_reset">Reset</string>
+    
+    <!-- UBER GCC version info -->
     <string name="uber_android">GCC android</string>
     <string name="uber_android_default">Unknown</string>
     <string name="uber_kernel">GCC kernel</string>
