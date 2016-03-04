@@ -910,4 +910,13 @@
     <string name="dashboard_switches_on">Schalter an</string>
     <string name="dashboard_switches_summary">Position der Dashboard Schalter ändern</string>
     <string name="dashboard_switches_dialog_title">Schaltzustand wählen</string>
+
+    <!-- Power menu Animations  -->
+    <string name="power_menu_animation_title">Power Menü Animation</string>
+    <string name="power_menu_animation_summary">Ändern Sie die Eingabe / Ausgabe-Animation des Power-Menü</string>
+    <string name="power_menu_animation_dialog_title">Power Menü Animation auswählen</string>
+    <string name="power_menu_animation_aosp">AOSP (Standard)</string>
+    <string name="power_menu_animation_bottom">Unten</string>
+    <string name="power_menu_animation_top">Oben</string>
+
 </resources>
