@@ -870,4 +870,33 @@
     <string name="qs_main_tiles_title">Erste Reihe vergrößern</string>
     <string name="qs_main_tiles_summary_on">Zwei Hauptkacheln in der ersten Reihe</string>
     <string name="qs_main_tiles_summary_off">Drei, vier oder fünf Kacheln in jeder Reihe</string>
+
+    <!-- Recent panel -->
+    <string name="slim_recents_enable_title">Slim Recents aktivieren</string>
+    <string name="slim_recents_enable_summary">Slim Recents verwenden</string>
+    <string name="show_running_tasks_title">Nur laufende Apps anzeigen</string>
+    <string name="recents_max_apps_title">Max. erlaubte Apps</string>
+    <string name="recent_panel_scale_title">Größe</string>
+    <string name="recent_panel_expanded_mode_title">Erweiterter Modus</string>
+    <string name="recent_panel_expanded_mode_summary">Recent Aufgaben erweiterter Vorschaumodus</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (Standard)</string>
+    <string name="recent_panel_expanded_mode_always">Immer</string>
+    <string name="recent_panel_expanded_mode_never">Nie</string>
+    <string name="recent_panel_show_topmost_title">Zeige oberste Aufgabe</string>
+    <string name="recent_panel_show_topmost_summary">Oberste Aufgabe in Recents nicht ausschließen</string>
+    <string name="recent_panel_bg_color_title">Panel Hintergrundfarbe</string>
+    <string name="recent_card_bg_color_title">Karten Hintergrundfarbe</string>
+    <string name="recent_card_text_color_title">Karten Textfarbe</string>
+
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Auf linker Seite anzeigen</string>
+    <string name="recent_panel_lefty_mode_summary">Recent Panel auf der linken Seite anzeigen</string>
+
+    <!-- Immersive Recents -->
+    <string name="immersive_recents_summary">Ansicht vom Recents Screen ändern</string>
+    <string name="immersive_recents_dialog_title">Recents Ansicht auswählen</string>
+    <string name="immersive_recents_default">Standard</string>
+    <string name="immersive_recents_fullscreen">Vollbild</string>
+    <string name="immersive_recents_statusbar">Nur Statusbar</string>
+    <string name="immersive_recents_navbar">Nur Navbar</string>
 </resources>
