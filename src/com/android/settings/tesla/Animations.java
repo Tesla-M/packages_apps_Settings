@@ -299,6 +299,7 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
             mPowerMenuAnimations.setValue(String.valueOf(newValue));
             mPowerMenuAnimations.setSummary(mPowerMenuAnimations.getEntry());
             return true;
+        }
         preference.setSummary(getProperSummary(preference));
         return result;
     }
