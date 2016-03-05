@@ -39,6 +39,10 @@
     <string name="uber_flags">Build flags</string>
     <string name="uber_flags_default">None</string>
 
+    <!-- Clang version -->
+    <string name="dtc_version">Clang</string>
+    <string name="dtc_version_default">None</string>
+
     <!-- TeslaCoil -->
     <string name="interface_settings_title">TeslaCoil</string>
     <string name="header_category_personalization">Personalization</string>
