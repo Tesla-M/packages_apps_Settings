@@ -904,13 +904,6 @@
     <string name="immersive_recents_statusbar">Nur Statusbar</string>
     <string name="immersive_recents_navbar">Nur Navbar</string>
 
-    <!-- Optional Dashboard Switches -->
-    <string name="dashboard_switches_title">Dashboard Schalter</string>
-    <string name="dashboard_switches_off">Schalter aus</string>
-    <string name="dashboard_switches_on">Schalter an</string>
-    <string name="dashboard_switches_summary">Position der Dashboard Schalter ändern</string>
-    <string name="dashboard_switches_dialog_title">Schaltzustand wählen</string>
-
     <!-- Power menu Animations  -->
     <string name="power_menu_animation_title">Power Menü Animation</string>
     <string name="power_menu_animation_summary">Ändern Sie die Eingabe / Ausgabe-Animation des Power-Menü</string>
@@ -918,5 +911,12 @@
     <string name="power_menu_animation_aosp">AOSP (Standard)</string>
     <string name="power_menu_animation_bottom">Unten</string>
     <string name="power_menu_animation_top">Oben</string>
+
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Dashboard Schalter</string>
+    <string name="dashboard_switches_off">Schalter aus</string>
+    <string name="dashboard_switches_on">Schalter an</string>
+    <string name="dashboard_switches_summary">Position der Dashboard Schalter ändern</string>
+    <string name="dashboard_switches_dialog_title">Schaltzustand wählen</string>
 
 </resources>
