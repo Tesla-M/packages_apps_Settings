@@ -84,6 +84,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_UBER_AND = "uber_android";
     private static final String KEY_UBER_KERNEL = "uber_kernel";
     private static final String KEY_UBER_FLAGS = "uber_flags";
+    private static final String KEY_DTC_VERSION = "dtc_version";
+    private static final String PROPERTY_DTC_VERSION = "ro.dtc.version";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -137,6 +139,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         setValueSummary(KEY_UBER_FLAGS, PROPERTY_UBER_FLAGS);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
+        setValueSummary(KEY_DTC_VERSION, "ro.dtc.version");
 
         if (!SELinux.isSELinuxEnabled()) {
             String status = getResources().getString(R.string.selinux_status_disabled);
@@ -157,6 +160,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
                 PROPERTY_UBER_KERNEL);
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_UBER_FLAGS,
                 PROPERTY_UBER_FLAGS);
+        // removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_DTC_VERSION,
+                //PROPERTY_DTC_VERSION);
 
         // Remove Equipment id preference if FCC ID is not set by RIL
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_EQUIPMENT_ID,
