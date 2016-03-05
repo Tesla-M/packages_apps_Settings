@@ -91,6 +91,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String VOLUME_ROCKER_WAKE = "volume_rocker_wake";
     
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
+    private static final String DASHBOARD_SWITCHES = "dashboard_switches";
 
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
@@ -100,6 +101,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private ListPreference mScreenTimeoutPreference;
     private ListPreference mDashboardColumns;
+    private ListPreference mDashboardSwitches;
     private Preference mScreenSaverPreference;
     private PreferenceScreen mDisplayRotationPreference;
     private SwitchPreference mLiftToWakePreference;
@@ -164,6 +166,12 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.DASHBOARD_COLUMNS, 0)));
         mDashboardColumns.setSummary(mDashboardColumns.getEntry());
         mDashboardColumns.setOnPreferenceChangeListener(this);
+
+        mDashboardSwitches = (ListPreference) findPreference(DASHBOARD_SWITCHES);
+        mDashboardSwitches.setValue(String.valueOf(Settings.System.getInt(
+                getContentResolver(), Settings.System.DASHBOARD_SWITCHES, 0)));
+        mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
+        mDashboardSwitches.setOnPreferenceChangeListener(this);
 
         if (isAutomaticBrightnessAvailable(getResources())) {
             mAutoBrightnessPreference = (SwitchPreference) findPreference(KEY_AUTO_BRIGHTNESS);
@@ -564,6 +572,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) objValue));
             mDashboardColumns.setValue(String.valueOf(objValue));
             mDashboardColumns.setSummary(mDashboardColumns.getEntry());
+            return true;
+        }
+        if (preference == mDashboardSwitches) {
+            Settings.System.putInt(getContentResolver(), Settings.System.DASHBOARD_SWITCHES,
+                    Integer.valueOf((String) objValue));
+            mDashboardSwitches.setValue(String.valueOf(objValue));
+            mDashboardSwitches.setSummary(mDashboardSwitches.getEntry());
             return true;
         }
         if (preference == mCameraDoubleTapPowerGesturePreference) {
