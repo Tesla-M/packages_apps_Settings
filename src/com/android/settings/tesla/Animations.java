@@ -293,7 +293,6 @@ public class Animations extends SettingsPreferenceFragment implements OnPreferen
                     Settings.System.LISTVIEW_INTERPOLATOR, value);
             mListViewInterpolator.setSummary(mListViewInterpolator.getEntries()[index]);
             return true;
-        }
         } else if (preference == mPowerMenuAnimations) {
             Settings.System.putInt(getContentResolver(), Settings.System.POWER_MENU_ANIMATIONS,
                     Integer.valueOf((String) newValue));
