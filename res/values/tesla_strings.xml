@@ -48,6 +48,7 @@
     <string name="header_category_personalization">Personalization</string>
     <string name="animations_category">Animations</string>
     <string name="battery_category">Battery</string>
+    <string name="camera_category">Camera options</string>
     <string name="breathing_notifications_category">Breathing Notifications</string>
     <string name="system_title">General</string>
     <string name="lockscreen_title">Lock screen</string>
@@ -1073,6 +1074,7 @@
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- Optional Dashboard Switches -->
+    <string name="dashboard_tweaks_title">Dashboard Tweaks</string>
     <string name="dashboard_switches_title">Dashboard Switches</string>
     <string name="dashboard_switches_off">Switches Off</string>
     <string name="dashboard_switches_on">Switches On</string>
@@ -1087,5 +1089,17 @@
     <string name="power_menu_animation_bottom">Bottom</string>
     <string name="power_menu_animation_top">Top</string>
     <string name="power_menu_animation_rotate">Rotation</string>
+    <string name="power_menu_animation_xylon">Fly</string>
+    <string name="power_menu_animation_slide">Slide</string>
+    <string name="power_menu_animation_turn">Turn</string>
+    <string name="power_menu_animation_fly">Glow</string>
+    <string name="power_menu_animation_card">3D</string>
+    <string name="power_menu_animation_translucent_top">Translucent (top)</string>
+    <string name="power_menu_animation_translucent_bottom">Translucent (bottom)</string>
+    
+    <!-- On-The-Go -->
+    <string name="power_menu_onthego_title">On-The-Go Mode</string>
+    <string name="onthego_alpha_title">On-The-Go Alpha</string>
+    <string name="onthego_alpha_summary">Alpha value of the On-The-Go overlay.</string>
 
 </resources>
