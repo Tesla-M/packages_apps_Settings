@@ -47,6 +47,15 @@
                 android:entries="@array/screen_timeout_entries"
                 android:entryValues="@array/screen_timeout_values" />
 
+        <PreferenceScreen
+                android:key="screensaver"
+                android:title="@string/screensaver_settings_title"
+                android:fragment="com.android.settings.DreamSettings" />
+
+        <PreferenceCategory
+                android:key="camera_category"
+                android:title="@string/camera_category">
+
         <SwitchPreference
                 android:key="camera_gesture"
                 android:title="@string/camera_gesture_title"
@@ -59,21 +68,11 @@
                 android:summary="@string/camera_double_tap_power_gesture_desc"
                 android:persistent="false" />
 
-        <PreferenceScreen
-                android:key="screensaver"
-                android:title="@string/screensaver_settings_title"
-                android:fragment="com.android.settings.DreamSettings" />
+        </PreferenceCategory>
 
-        <SwitchPreference
-                android:key="lift_to_wake"
-                android:title="@string/lift_to_wake_title"
-                android:persistent="false" />
-
-        <SwitchPreference
-                android:key="tap_to_wake"
-                android:title="@string/tap_to_wake"
-                android:summary="@string/tap_to_wake_summary"
-                android:persistent="false" />
+        <PreferenceCategory
+                android:key="dashboard_category"
+                android:title="@string/dashboard_tweaks_title">
 
         <ListPreference
                 android:key="dashboard_columns"
@@ -106,6 +105,8 @@
                 android:summary="@string/dashboard_switches_summary"
                 android:persistent="false" />
 
+        </PreferenceCategory>
+
         <com.android.settings.WarnedListPreference
                 android:key="font_size"
                 android:title="@string/title_font_size"
@@ -129,6 +130,17 @@
         <PreferenceCategory
         android:key="wakeup"
         android:title="@string/wakeup_section_header" >
+
+        <SwitchPreference
+                android:key="lift_to_wake"
+                android:title="@string/lift_to_wake_title"
+                android:persistent="false" />
+
+        <SwitchPreference
+                android:key="tap_to_wake"
+                android:title="@string/tap_to_wake"
+                android:summary="@string/tap_to_wake_summary"
+                android:persistent="false" />
 
         <SwitchPreference
                 android:key="volume_rocker_wake"
