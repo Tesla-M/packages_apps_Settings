@@ -52,6 +52,27 @@
                 android:title="@string/screensaver_settings_title"
                 android:fragment="com.android.settings.DreamSettings" />
 
+        <com.android.settings.WarnedListPreference
+                android:key="font_size"
+                android:title="@string/title_font_size"
+                settings:keywords="@string/keywords_display_font_size"
+                android:summary="@string/summary_font_size"
+                android:entries="@array/entries_font_size"
+                android:entryValues="@array/entryvalues_font_size"
+                android:dialogTitle="@string/dialog_title_font_size" />
+
+        <PreferenceScreen
+                android:key="display_rotation"
+                android:fragment="com.android.settings.tesla.DisplayRotation"
+                android:title="@string/display_rotation_title" />
+
+        <PreferenceScreen
+                android:key="wifi_display"
+                android:title="@string/wifi_display_settings_title"
+                settings:keywords="@string/keywords_display_cast_screen"
+                android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+
+
         <PreferenceCategory
                 android:key="camera_category"
                 android:title="@string/camera_category">
@@ -106,26 +127,6 @@
                 android:persistent="false" />
 
         </PreferenceCategory>
-
-        <com.android.settings.WarnedListPreference
-                android:key="font_size"
-                android:title="@string/title_font_size"
-                settings:keywords="@string/keywords_display_font_size"
-                android:summary="@string/summary_font_size"
-                android:entries="@array/entries_font_size"
-                android:entryValues="@array/entryvalues_font_size"
-                android:dialogTitle="@string/dialog_title_font_size" />
-
-        <PreferenceScreen
-                android:key="display_rotation"
-                android:fragment="com.android.settings.tesla.DisplayRotation"
-                android:title="@string/display_rotation_title" />
-
-        <PreferenceScreen
-                android:key="wifi_display"
-                android:title="@string/wifi_display_settings_title"
-                settings:keywords="@string/keywords_display_cast_screen"
-                android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
 
         <PreferenceCategory
         android:key="wakeup"
