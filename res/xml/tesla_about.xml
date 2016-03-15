@@ -88,6 +88,10 @@
 	     <Preference
 	        android:title="Vibhor Chaudhary (vibhu0009)"
 	            android:summary="YU -lettuce/-tomato maintainer" />
+	            
+	     <Preference
+	        android:title="Nick van Bokhorst (GtrCraft)"
+	            android:summary="Grouper, Lux maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
