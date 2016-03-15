@@ -111,6 +111,24 @@
                 android:summaryOff="@string/dashboard_tileview_double_lines_summary_off"
                 android:defaultValue="false" />
 
+        <com.android.settings.tesla.SeekBarPreference
+                android:key="settings_category_text_size"
+                android:title="@string/dash_category_text_size"
+                android:defaultValue="14"
+                android:max="25"
+                settings:minimum="4"
+                settings:unitsLeft=""
+                settings:unitsRight="dp" />
+
+        <com.android.settings.tesla.SeekBarPreference
+                android:key="settings_title_text_size"
+                android:title="@string/dash_title_text_size"
+                android:defaultValue="14"
+                android:max="25"
+                settings:minimum="4"
+                settings:unitsLeft=""
+                settings:unitsRight="dp" />
+
         <com.android.settings.tesla.SystemSettingSwitchPreference
                 android:key="dashboard_tileview_dividers"
                 android:title="@string/dashboard_tileview_dividers_title"
