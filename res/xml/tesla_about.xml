@@ -92,6 +92,10 @@
 	     <Preference
 	        android:title="Nick van Bokhorst (GtrCraft)"
 	            android:summary="Grouper, Lux maintainer" />
+	            
+	     <Preference
+	        android:title="Matthew Opperman (dblockopp/oppo17)"
+	            android:summary="LG G3 maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
