@@ -2469,6 +2469,18 @@
         </activity>
 
 	<!-- Tesla Activities -->
+        <activity android:name="Settings$InterfaceSettingsActivity"
+             android:label="@string/header_category_personalization"
+             android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.tesla.InterfaceSettings" />
+        </activity> 
+
+        <activity android:name=".tesla.InterfaceSettings" />
         <activity android:name=".notificationlight.NotificationLightSettings" />
         <activity android:name=".notificationlight.BatteryLightSettings" />
         <activity android:name="com.android.settings.tesla.Traffic" />
