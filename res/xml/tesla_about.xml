@@ -96,6 +96,10 @@
 	     <Preference
 	        android:title="Matthew Opperman (dblockopp/oppo17)"
 	            android:summary="LG G3 maintainer" />
+	            
+	     <Preference
+	        android:title="Psy After"
+	            android:summary="S5-mini (g800f) maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
