@@ -100,6 +100,10 @@
 	     <Preference
 	        android:title="Psy After"
 	            android:summary="S5-mini (g800f) maintainer" />
+
+	     <Preference
+	        android:title="Prema Chand Alugu (premaca)"
+	            android:summary="Redmi 2 (wt88047) maintainer" />
 	            	            
 	    </PreferenceCategory>       
 </PreferenceScreen>
