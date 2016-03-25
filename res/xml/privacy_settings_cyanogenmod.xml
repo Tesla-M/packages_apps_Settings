@@ -23,4 +23,7 @@
             android:summary="@string/blacklist_summary"
             android:fragment="com.android.settings.blacklist.BlacklistSettings" />
 
+        <Preference android:title="@string/app_ops_settings"
+                android:fragment="com.android.settings.applications.AppOpsSummary"/>
+
 </PreferenceScreen>
