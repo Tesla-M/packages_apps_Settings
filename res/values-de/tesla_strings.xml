@@ -1065,4 +1065,12 @@
     <string name="app_ops_labels_toggle_nfc">Schalter NFC</string>
     <string name="app_ops_labels_toggle_mobile_data">Schalter Mobilfunk</string>
 
+    <!-- IME animations -->
+    <string name="ime_animation_title">IME Animationen</string>
+    <string name="ime_animation_test_title">IME Animation testen</string>
+    <string name="ime_enter_animation_title">Keyboard einblenden</string>
+    <string name="ime_exit_animation_title">Keyboard animation</string>
+    <string name="ime_duration_title">Animationsdauer</string>
+    <string name="animation_duration_summary">Animationsdauer setzen</string>
+
 </resources>
