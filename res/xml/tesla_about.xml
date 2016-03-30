@@ -104,6 +104,10 @@
 	     <Preference
 	        android:title="Prema Chand Alugu (premaca)"
 	            android:summary="Redmi 2 (wt88047) maintainer" />
+
+             <Preference
+	        android:title="Shivam Desai (Flashhhh)"
+	            android:summary="Falcon/Osprey maintainer" />
 	            	            
 	     <Preference
 	        android:title="Vladimir Mitreski (airlessproject)"
