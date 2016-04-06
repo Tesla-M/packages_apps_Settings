@@ -105,5 +105,9 @@
 	        android:title="Prema Chand Alugu (premaca)"
 	            android:summary="Redmi 2 (wt88047) maintainer" />
 	            	            
+	     <Preference
+	        android:title="Vladimir Mitreski (airlessproject)"
+	            android:summary="Sony Xperia Z (yuga) maintainer" />
+
 	    </PreferenceCategory>       
 </PreferenceScreen>
