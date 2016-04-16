@@ -1073,4 +1073,9 @@
     <string name="ime_duration_title">Animationsdauer</string>
     <string name="animation_duration_summary">Animationsdauer setzen</string>
 
+    <!-- Heads up -->
+    <string name="headsup_section_header">Heads Up Benachrichtigungen</string>
+    <string name="summary_heads_up_enabled">Pop-up-Benachrichtigungen sind aktiviert</string>
+    <string name="summary_heads_up_disabled">Pop-up-Benachrichtigungen sind deaktiviert</string>
+
 </resources>
