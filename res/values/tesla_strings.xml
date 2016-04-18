@@ -498,8 +498,10 @@
     <!--Time Contexual Header -->
     <string name="status_bar_custom_header_title">Time Contextual Header</string>
     <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="status_bar_custom_header_default_title">Use Poly HD images</string>
-    <string name="status_bar_custom_header_default_summary">Enable for Polygraphic HD images. Disable for original images.</string>
+    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
+    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="unit_percent">\u0025</string>
 
     <!-- Bluetooth settings. A checkbox to set if we should accept all the file types regardless of their presence in MIME type whitelist -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
