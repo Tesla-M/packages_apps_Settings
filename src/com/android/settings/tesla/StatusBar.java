@@ -17,23 +17,25 @@
 package com.android.settings.tesla;
 
 import android.content.ContentResolver;
-import android.database.ContentObserver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.res.Resources;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.os.Bundle;
-import android.os.Handler;
+import android.os.UserHandle;
 import android.preference.ListPreference;
 import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceCategory;
+import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
+import android.preference.PreferenceCategory;
+import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.SwitchPreference;
 import android.provider.Settings;
-import android.provider.Settings.SettingNotFoundException;
 import android.util.Log;
 
 import com.android.internal.logging.MetricsLogger;
-import com.android.settings.R;
-import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.Utils;
+import com.android.internal.util.omni.PackageUtils;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -42,15 +44,16 @@ import com.android.settings.tesla.SeekBarPreference;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class StatusBar extends extends SettingsPreferenceFragment
+public class StatusBar extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
-
     private static final String TAG = "StatusBarSettings";
     private static final String CUSTOM_HEADER_IMAGE = "status_bar_custom_header";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
     private static final String DEFAULT_HEADER_PACKAGE = "com.android.systemui";
     private static final String CUSTOM_HEADER_IMAGE_SHADOW = "status_bar_custom_header_shadow";
+    private static final String PREF_CUSTOM_HEADER = "status_bar_custom_header";
 
+    private SwitchPreference mCustomHeader;
     private ListPreference mDaylightHeaderPack;
     private SwitchPreference mCustomHeaderImage;
     private SeekBarPreference mHeaderShadow;
@@ -58,7 +61,16 @@ public class StatusBar extends extends SettingsPreferenceFragment
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         addPreferencesFromResource(R.xml.status_bar_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
+
+        final ContentResolver resolver = getActivity().getContentResolver();
+
+        mCustomHeader = (SwitchPreference) prefSet.findPreference(PREF_CUSTOM_HEADER);
+        mCustomHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CUSTOM_HEADER, 0) == 1));
+        mCustomHeader.setOnPreferenceChangeListener(this);
 
         // header image packs
         final boolean customHeaderImage = Settings.System.getInt(getContentResolver(),
@@ -74,7 +86,7 @@ public class StatusBar extends extends SettingsPreferenceFragment
         mDaylightHeaderPack = (ListPreference) findPreference(DAYLIGHT_HEADER_PACK);
         List<String> entries = new ArrayList<String>();
         List<String> values = new ArrayList<String>();
-        getAvailableHeaderPacks(entrieshp, values);
+        getAvailableHeaderPacks(entries, values);
         mDaylightHeaderPack.setEntries(entries.toArray(new String[entries.size()]));
         mDaylightHeaderPack.setEntryValues(values.toArray(new String[values.size()]));
 
@@ -111,33 +123,27 @@ public class StatusBar extends extends SettingsPreferenceFragment
     }
 
     @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
-        if (preference == mCustomHeaderImage) {
-            final boolean value = ((SwitchPreference)preference).isChecked();
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
-            mDaylightHeaderPack.setEnabled(value);
-            return true;
-         }
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
-    }
-
-
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mDaylightHeaderPack) {
+    ContentResolver resolver = getActivity().getContentResolver();
+      if (preference == mCustomHeader) {
+            Settings.System.putInt(getContentResolver(),
+                 Settings.System.STATUS_BAR_CUSTOM_HEADER,
+                 (Boolean) newValue ? 1 : 0);
+            return true;
+      } else if (preference == mDaylightHeaderPack) {
             String value = (String) newValue;
             Settings.System.putString(getContentResolver(),
                     Settings.System.STATUS_BAR_DAYLIGHT_HEADER_PACK, value);
             int valueIndex = mDaylightHeaderPack.findIndexOfValue(value);
             mDaylightHeaderPack.setSummary(mDaylightHeaderPack.getEntries()[valueIndex]);
             return true;
-        } else if (preference == mHeaderShadow) {
+      } else if (preference == mHeaderShadow) {
             Integer headerShadow = (Integer) newValue;
             int realHeaderValue = (int) (((double) headerShadow / 100) * 255);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.STATUS_BAR_CUSTOM_HEADER_SHADOW, realHeaderValue);
             return true;
-        }
+      }
         return false;
     }
 
@@ -173,4 +179,17 @@ public class StatusBar extends extends SettingsPreferenceFragment
             entries.add(label);
         }
     }
+
+    @Override
+    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+        if (preference == mCustomHeaderImage) {
+            final boolean value = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.STATUS_BAR_CUSTOM_HEADER, value ? 1 : 0);
+            mDaylightHeaderPack.setEnabled(value);
+            return true;
+         }
+        return super.onPreferenceTreeClick(preferenceScreen, preference);
+    }
+
 }
