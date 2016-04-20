@@ -1087,10 +1087,6 @@
     <string name="onthego_alpha_title">On-The-Go Alpha</string>
     <string name="onthego_alpha_summary">Alpha value of the On-The-Go overlay.</string>
 
-    <!-- Gesture Settings -->
-    <!-- Settings main menu entry -->
-    <string name="gesture_settings_title">Gestures</string>
-
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Allowed</string>
     <string name="app_ops_permissions_ignored">Ignored</string>
