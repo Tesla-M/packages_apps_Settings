@@ -20,11 +20,6 @@
         <item>Über der Navbar</item>
     </string-array>
 
-    <string-array name="battery_bar_style_entries">
-        <item>Normal</item>
-        <item>Mittig gespiegelt</item>
-    </string-array>
-
     <string-array name="qs_num_columns_entries">
         <item>Drei</item>
         <item>Vier</item>
