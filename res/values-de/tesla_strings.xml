@@ -1049,4 +1049,8 @@
     <string name="summary_heads_up_enabled">Pop-up-Benachrichtigungen sind aktiviert</string>
     <string name="summary_heads_up_disabled">Pop-up-Benachrichtigungen sind deaktiviert</string>
 
+    <!-- Dashboard text size -->
+    <string name="dash_title_text_size">Titel Textgröße</string>
+    <string name="dash_category_text_size">Kategorie Textgröße</string>
+
 </resources>
