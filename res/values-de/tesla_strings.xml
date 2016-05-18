@@ -451,8 +451,13 @@
     <string name="battery_bar_title">Battery Bar</string>
     <string name="battery_bar">Battery Bar Position</string>
     <string name="battery_bar_color">Battery Bar Farbe</string>
+    <string name="battery_bar_charging_color">Battery Bar Farbe beim laden</string>
+    <string name="battery_bar_battery_low_color">Battery Bar niedriger Akkustand Farbe</string>
     <string name="battery_bar_cat">Battery Bar Stil</string>
     <string name="battery_bar_style_title">Battery Bar Ausrichtung</string>
+    <string name="battery_bar_style_regular">Normal</string>
+    <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
+    <string name="battery_bar_style_reversed">umgekehrt</string>
     <string name="battery_bar_thickness_title">Battery Bar Dicke</string>
     <string name="battery_bar_animate_title">Ladeanimation</string>
     <string name="battery_bar_animate_summary">Die Lade-Animation kann zu schlechter Nutzererfahrung führen. Aktivieren Sie nach Ihrem eigenen Ermessen!</string>
@@ -1052,5 +1057,7 @@
     <!-- Dashboard text size -->
     <string name="dash_title_text_size">Titel Textgröße</string>
     <string name="dash_category_text_size">Kategorie Textgröße</string>
+
+    <string name="status_bar_weather_font_style_title">Schriftart</string>
 
 </resources>
