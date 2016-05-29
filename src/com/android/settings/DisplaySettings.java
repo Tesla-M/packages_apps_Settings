@@ -31,6 +31,8 @@ import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_AUTOMATIC;
 import static android.provider.Settings.System.SCREEN_BRIGHTNESS_MODE_MANUAL;
 import static android.provider.Settings.System.SCREEN_OFF_TIMEOUT;
+import static android.provider.Settings.System.SCREENSHOT_CROP_AND_SHARE;
+import static android.provider.Settings.System.SCREENSHOT_CROP_BEHAVIOR;
 
 import android.app.Activity;
 import android.app.ActivityManagerNative;
@@ -98,6 +100,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
     private static final String DASHBOARD_SWITCHES = "dashboard_switches";
 
+    private static final String KEY_CATEGORY_SCREENSHOT = "screenshot";
+    private static final String KEY_SCREENSHOT_CROP_AND_SHARE = "screenshot_crop_and_share";
+    private static final String KEY_SCREENSHOT_CROP_BEHAVIOR = "screenshot_crop_behavior";
+
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private WarnedListPreference mFontSizePref;
@@ -122,6 +128,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SeekBarPreference mDashTitleTextSize;
     private SeekBarPreference mDashCategoryTextSize;
     private ListPreference mDashFontStyle;
+    private SwitchPreference mScreenshotCropAndSharePreference;
+    private SwitchPreference mScreenshotCropBehaviorPreference;
 
     private static final String ROTATION_ANGLE_0 = "0";
     private static final String ROTATION_ANGLE_90 = "90";
@@ -248,6 +256,9 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             removePreference(KEY_DISPLAY_ROTATION);
         }
 
+        PreferenceCategory screenshotPrefs = (PreferenceCategory)
+                findPreference(KEY_CATEGORY_SCREENSHOT);
+
         mDozeCategory = (PreferenceCategory) findPreference(KEY_DOZE_CATEGORY);
         if (isDozeAvailable(activity)) {
             // Doze master switch
@@ -264,6 +275,25 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         mVolumeRockerWake.setChecked(volumeRockerWake != 0);
         mWakeWhenPluggedOrUnplugged =
                 (SwitchPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
+
+        mScreenshotCropAndSharePreference = (SwitchPreference) findPreference(KEY_SCREENSHOT_CROP_AND_SHARE);
+        if (mScreenshotCropAndSharePreference != null) {
+            mScreenshotCropAndSharePreference.setOnPreferenceChangeListener(this);
+        } else {
+            if (screenshotPrefs != null && mScreenshotCropAndSharePreference != null) {
+                screenshotPrefs.removePreference(mScreenshotCropAndSharePreference);
+            }
+        }
+
+	 mScreenshotCropBehaviorPreference = (SwitchPreference) findPreference(KEY_SCREENSHOT_CROP_BEHAVIOR);
+        if (mScreenshotCropBehaviorPreference != null) {
+            mScreenshotCropBehaviorPreference.setOnPreferenceChangeListener(this);
+        } else {
+            if (screenshotPrefs != null && mScreenshotCropBehaviorPreference != null) {
+                screenshotPrefs.removePreference(mScreenshotCropBehaviorPreference);
+            }
+        }
+
     }
 
     private static boolean allowAllRotations(Context context) {
@@ -526,6 +556,17 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     getContentResolver(), CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 0);
             mCameraDoubleTapPowerGesturePreference.setChecked(value == 0);
         }
+
+        // Update crop and share if it is available.
+        if (mScreenshotCropAndSharePreference != null) {
+            int value = Settings.System.getInt(getContentResolver(), SCREENSHOT_CROP_AND_SHARE, 1);
+            mScreenshotCropAndSharePreference.setChecked(value != 0);
+        }
+
+ 	if (mScreenshotCropBehaviorPreference != null) {
+            int value = Settings.System.getInt(getContentResolver(), SCREENSHOT_CROP_BEHAVIOR, 1);
+            mScreenshotCropBehaviorPreference.setChecked(value != 0);
+        }
     }
 
     private void updateScreenSaverSummary() {
@@ -636,6 +677,14 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getContentResolver(), VOLUME_ROCKER_WAKE,
                     value ? 1 : 0);
+        }
+        if (preference == mScreenshotCropAndSharePreference) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), SCREENSHOT_CROP_AND_SHARE, value ? 1 : 0);
+        }
+	if (preference == mScreenshotCropBehaviorPreference) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getContentResolver(), SCREENSHOT_CROP_BEHAVIOR, value ? 1 : 0);
         }
         return true;
     }
