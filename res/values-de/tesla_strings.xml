@@ -1060,4 +1060,10 @@
 
     <string name="status_bar_weather_font_style_title">Schriftart</string>
 
+    <!-- Screenshot Crop & Share -->
+    <string name="screenshot_crop_and_share_enable_title">Screenshot Crop &amp; Share</string>
+    <string name="screenshot_crop_and_share_enable_summary">Zeigen ein Editor-Fenster nach einen Screenshot, um einige Operationen wie zuschneiden, speichern oder teilen durchzuführen</string>
+    <string name="pref_crop_behavior_title">Crop Verhalten</string>
+    <string name="pref_crop_behavior_summary">Verwenden Sie immer das beschnittene Bild innerhalb des Beschneidebereiches, auch wenn die Anwendetaste nicht gedrückt wurde</string>
+
 </resources>
