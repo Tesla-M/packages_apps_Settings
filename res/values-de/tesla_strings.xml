@@ -1095,4 +1095,25 @@
     <string name="pref_crop_behavior_title">Crop Verhalten</string>
     <string name="pref_crop_behavior_summary">Verwenden Sie immer das beschnittene Bild innerhalb des Beschneidebereiches, auch wenn die Anwendetaste nicht gedrückt wurde</string>
 
+    <!-- Tiles animation style  -->
+    <string name="qs_tile_animation_style_title">Animation Style</string>
+    <string name="qs_tile_animation_duration_title">Animationsdauer</string>
+    <string name="qs_tile_animation_interpolator_title">Kacheln Animation Interpolator</string>
+    <string name="qs_tile_animation_style_off">Keine Animation</string>
+    <string name="qs_tile_animation_style_flip">schnellen</string>
+    <string name="qs_tile_animation_style_rotate">rotieren</string>
+    <string name="qs_tile_animation_duration_low">langsam</string>
+    <string name="qs_tile_animation_duration_default">Standard</string>
+    <string name="qs_tile_animation_duration_fast">schnell</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Beschleunigen</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Verlangsamen</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Beschleunigen verlangsamen</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">hüpfen</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">übertreffen</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antizipieren übertreffen</string>
+
+    <!-- Transparency -->
+    <string name="qs_transparent_cat_title">QS Transparenz</string>
+    <string name="qs_transparent_shade">Schatten Transparenz</string>
+
 </resources>
