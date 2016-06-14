@@ -1087,4 +1087,6 @@
     <string name="qs_transparent_cat_title">QS Transparenz</string>
     <string name="qs_transparent_shade">Schatten Transparenz</string>
 
+    <!-- Volume keys control media stream, instead of ring/notification -->
+    <string name="volume_key_control_media">Lautstärketasten steuern Medienlautstärke</string>
 </resources>
