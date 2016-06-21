@@ -283,7 +283,8 @@ public class SettingsActivity extends Activity
             R.id.nfc_payment_settings,
             R.id.home_settings,
             R.id.daynight,
-            R.id.dashboard
+            R.id.dashboard,
+            R.id.substratum
     };
 
     private static final String[] ENTRY_FRAGMENTS = {
@@ -1356,6 +1357,15 @@ public class SettingsActivity extends Activity
                     boolean supported = false;
                     try {
                         supported = (getPackageManager().getPackageInfo("com.grarak.kerneladiutor", 0).versionCode > 0);
+                    } catch (PackageManager.NameNotFoundException e) {
+                    }
+                    if (!supported) {
+                        removeTile = true;
+                    }
+                } else if (id == R.id.substratum) {
+                    boolean supported = false;
+                    try {
+                        supported = (getPackageManager().getPackageInfo("projekt.substratum", 0).versionCode > 0);
                     } catch (PackageManager.NameNotFoundException e) {
                     }
                     if (!supported) {
