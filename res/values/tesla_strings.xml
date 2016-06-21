@@ -1373,4 +1373,7 @@
     <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_clock_font_medium_normal">Medium</string>
     <string name="lock_clock_font_medium_italic">Medium Italic</string>
+
+    <!-- Substratum -->
+    <string name="substratum">Substratum</string>
 </resources>
