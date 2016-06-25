@@ -1121,4 +1121,8 @@
 
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Ton bei Lautstärkenänderung</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot Sound</string>
+    <string name="screenshot_sound_summary">Soundeffekt wenn Screenshot aufgenommen wird</string>
 </resources>
