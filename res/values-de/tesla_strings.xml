@@ -1089,4 +1089,8 @@
 
     <!-- Volume keys control media stream, instead of ring/notification -->
     <string name="volume_key_control_media">Lautstärketasten steuern Medienlautstärke</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot Sound</string>
+    <string name="screenshot_sound_summary">Soundeffekt wenn Screenshot aufgenommen wird</string>
 </resources>
