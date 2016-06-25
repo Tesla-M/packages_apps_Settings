@@ -1118,4 +1118,7 @@
 
     <!-- Volume keys control media stream, instead of ring/notification -->
     <string name="volume_key_control_media">Lautstärketasten steuern Medienlautstärke</string>
+
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Ton bei Lautstärkenänderung</string>
 </resources>
