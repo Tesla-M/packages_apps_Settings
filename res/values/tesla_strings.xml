@@ -1350,4 +1350,8 @@
 
     <!-- Volume keys control media stream, instead of ring/notification -->
     <string name="volume_key_control_media">Volume keys control media volume</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 </resources>
