@@ -1125,4 +1125,10 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot Sound</string>
     <string name="screenshot_sound_summary">Soundeffekt wenn Screenshot aufgenommen wird</string>
+
+    <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Sperrbildschirm-Schriftart</string>
+    <string name="lock_clock_font_summary">Ändert die Schriftart der Uhr auf dem Sperrbildschirm</string>
+    <string name="lock_clock_font_dialog_title">Wähle die Schriftart der Uhr</string>
+    <string name="lock_clock_font_stock">Normal (Standard)</string>
 </resources>
