@@ -29,6 +29,12 @@
             android:fragment="com.android.settings.tesla.CarrierLabel"
             android:title="@string/carrier_options" />
 
+         <PreferenceScreen
+            android:key="status_bar_greeting_settings"
+            android:title="@string/status_bar_greeting_settings_title"
+            android:summary="@string/status_bar_greeting_settings_summary"
+            android:fragment="com.android.settings.tesla.StatusBarGreetingSettings" />
+
          <Preference
             android:key="battery"
             android:fragment="com.android.settings.tesla.Battery"
