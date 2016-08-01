@@ -35,13 +35,16 @@
     <string name="uber_kernel">GCC kernel</string>
     <string name="uber_kernel_default">Unknown</string>
 
-<!-- UBER GCC build flags info -->
+    <!-- UBER GCC build flags info -->
     <string name="uber_flags">Build flags</string>
     <string name="uber_flags_default">None</string>
 
     <!-- Clang version -->
     <string name="dtc_version">Clang</string>
     <string name="dtc_version_default">None</string>
+
+   <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
 
     <!-- TeslaCoil -->
     <string name="interface_settings_title">TeslaCoil</string>
