@@ -458,6 +458,10 @@
     <string name="battery_bar_style_regular">Normal</string>
     <string name="battery_bar_style_center_mirrored">Mittig gespiegelt</string>
     <string name="battery_bar_style_reversed">umgekehrt</string>
+    <string name="battery_bar_use_gradient_color">Farbverlauf benutzen</string>
+    <string name="battery_bar_gradient_color_summary">Verwenden Sie Farbverlauf als Maßstab für den Batteriestand</string>
+    <string name="battery_bar_high_color">High level Farbe"</string>
+    <string name="battery_bar_low_color">Low level Farbe"</string>
     <string name="battery_bar_thickness_title">Battery Bar Dicke</string>
     <string name="battery_bar_animate_title">Ladeanimation</string>
     <string name="battery_bar_animate_summary">Die Lade-Animation kann zu schlechter Nutzererfahrung führen. Aktivieren Sie nach Ihrem eigenen Ermessen!</string>
