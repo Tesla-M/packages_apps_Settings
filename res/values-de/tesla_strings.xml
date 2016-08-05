@@ -1131,4 +1131,21 @@
     <string name="lock_clock_font_summary">Ändert die Schriftart der Uhr auf dem Sperrbildschirm</string>
     <string name="lock_clock_font_dialog_title">Wähle die Schriftart der Uhr</string>
     <string name="lock_clock_font_stock">Normal (Standard)</string>
+
+    <!-- Greeting -->
+    <string name="always_title">Immer</string>
+    <string name="never_title">Nie</string>
+    <string name="show_title">Zeige</string>
+    <string name="color_dark_mode_title">Farbe (light Status Bar)</string>
+    <string name="status_bar_greeting_settings_title">Begrüßung</string>
+    <string name="status_bar_greeting_settings_summary">Benutzerdefinierte Begrüßung</string>
+    <string name="greeting_show_greeting_always_summary">Die Begrüßung wird nach entsperren des Gerätes angezeigt</string>
+    <string name="greeting_show_greeting_once_summary">Die Begrüßung wird nur einmal nach dem booten angezeigt</string>
+    <string name="greeting_show_greeting_never_summary">Niemals anzeigen</string>
+    <string name="greeting_show_greeting_once_title">Einmal nach boot</string>
+    <string name="greeting_custom_text_title">Benutzerdefinierter Text</string>
+    <string name="greeting_custom_text_dlg_message">Neuen Text eingeben was als Begrüßung angezeigt werden soll. Ein leeres Feld wird den Text reverten zu:\n\'%s\'</string>
+    <string name="greeting_timeout_title">Dauer</string>
+    <string name="greeting_preview_title">Vorschau</string>
+    <string name="greeting_preview_summary">Vorschau anzeigen</string>
 </resources>
